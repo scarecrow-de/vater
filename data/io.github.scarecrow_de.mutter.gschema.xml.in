@@ -36,7 +36,7 @@
     </key>
 
     <key name="dynamic-workspaces" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Workspaces are managed dynamically</summary>
       <description>
         Determines whether workspaces are managed dynamically or
