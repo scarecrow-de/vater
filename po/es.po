@@ -313,7 +313,7 @@ msgid ""
 msgstr ""
 "Determina si las áreas de trabajo se gestionan dinámicamente o si ha un "
 "número estático de áreas de trabajo (determinado por la clave «num-"
-"workspaces» en «io.github.scarecrow_de.desktop.wm.preferences»)."
+"workspaces» en «org.gnome.desktop.wm.preferences»)."
 
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"

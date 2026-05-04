@@ -339,7 +339,7 @@ msgid ""
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "શું કામકરવાની જગ્યા ગતિશીલ રીતે સંચાલિત થયેલ છે તે નક્કી કરે છે અથવા શું ત્યા કામ કરવાની "
-"જગ્યાની સ્થિર સંખ્યા છે (io.github.scarecrow_de.desktop.wm.preferences માં કામ કરવાની જગ્યા "
+"જગ્યાની સ્થિર સંખ્યા છે (org.gnome.desktop.wm.preferences માં કામ કરવાની જગ્યા "
 "દ્દારા નક્કી થયેલ છે)."
 
 #: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9

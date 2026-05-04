@@ -341,7 +341,7 @@ msgid ""
 msgstr ""
 "କାର୍ଯ୍ୟକ୍ଷେତ୍ରଗୁଡ଼ିକ ଅସ୍ଥାୟୀ ଭାବରେ ପରିଚାଳିତ ହୋଇଥାଏ କି  ସେଠାରେ ସ୍ଥାୟୀ ସଂଖ୍ୟକ "
 "କାର୍ଯ୍ୟକ୍ଷେତ୍ର "
-"ଥାଏ ତାହା ନିର୍ଦ୍ଧାରଣ କରିଥାଏ (io.github.scarecrow_de.desktop.wm.preferences ଦ୍ୱାରା num-"
+"ଥାଏ ତାହା ନିର୍ଦ୍ଧାରଣ କରିଥାଏ (org.gnome.desktop.wm.preferences ଦ୍ୱାରା num-"
 "workspaces କି ଦ୍ୱାରା ନିର୍ଦ୍ଧାରିତ ହୋଇଥାଏ)।"
 
 #: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9

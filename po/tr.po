@@ -313,7 +313,7 @@ msgid ""
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "Çalışma alanlarının dinamik olarak mı yönetileceğini yoksa sabit sayıda "
-"çalışma alanı mı olacağını belirler (io.github.scarecrow_de.desktop.wm.preferences "
+"çalışma alanı mı olacağını belirler (org.gnome.desktop.wm.preferences "
 "içindeki num-workspaces değişkeni tarafından belirlenir)."
 
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50

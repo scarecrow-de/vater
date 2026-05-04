@@ -336,7 +336,7 @@ msgid ""
 msgstr ""
 "কৰ্মক্ষেত্ৰসমূহ চলমানভাৱে ব্যৱস্থাপনা কৰা হয় নে কৰ্মক্ষেত্ৰৰসমূহৰ এটা স্থিৰ "
 "সংখ্যা আছে "
-"নিৰ্ধাৰণ কৰে (io.github.scarecrow_de.desktop.wm.preferences ত num-workspaces কি দ্বাৰা "
+"নিৰ্ধাৰণ কৰে (org.gnome.desktop.wm.preferences ত num-workspaces কি দ্বাৰা "
 "নিৰ্ধাৰিত)।"
 
 #: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9

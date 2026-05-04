@@ -307,7 +307,7 @@ msgid ""
 msgstr ""
 "Možnost določa ali je število delovnih površin spremenljivo ali pa je to "
 "število stalno (določenih s ključem števila delovnih površin med možnostmi v "
-"io.github.scarecrow_de.desktop.wm.preferences)."
+"org.gnome.desktop.wm.preferences)."
 
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"

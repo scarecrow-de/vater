@@ -369,7 +369,7 @@ msgid ""
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "Určuje, či pracovné priestory sú spravované dynamicky alebo ich počet je "
-"pevný (určený kľúčom num-workspaces v io.github.scarecrow_de.desktop.wm.preferences)."
+"pevný (určený kľúčom num-workspaces v org.gnome.desktop.wm.preferences)."
 
 # summary
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50

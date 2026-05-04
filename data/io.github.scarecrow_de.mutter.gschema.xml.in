@@ -41,7 +41,7 @@
       <description>
         Determines whether workspaces are managed dynamically or
         whether there’s a static number of workspaces (determined
-        by the num-workspaces key in io.github.scarecrow_de.desktop.wm.preferences).
+        by the num-workspaces key in org.gnome.desktop.wm.preferences).
       </description>
     </key>
 

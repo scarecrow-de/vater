@@ -321,7 +321,7 @@ msgid ""
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "กำหนดว่าจะจัดการพื้นที่ทำงานแบบปรับเปลี่ยนตามการใช้งานจริง หรือจะให้มีจำนวนพื้นที่ทำงานตายตัว "
-"(กำหนดโดยคีย์ num-workspaces ใน io.github.scarecrow_de.desktop.wm.preferences)"
+"(กำหนดโดยคีย์ num-workspaces ใน org.gnome.desktop.wm.preferences)"
 
 #: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
