@@ -2080,7 +2080,7 @@ meta_input_settings_init (MetaInputSettings *settings)
   g_signal_connect (priv->keyboard_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->scsd_settings = g_settings_new ("org.gnome.settings-daemon.peripherals.mouse");
+  priv->scsd_settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.peripherals.mouse");
 
   g_settings_bind (priv->scsd_settings, "double-click",
                    clutter_settings_get_default(), "double-click-time",

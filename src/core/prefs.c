@@ -69,7 +69,7 @@
 #define SCHEMA_INTERFACE       "org.gnome.desktop.interface"
 #define SCHEMA_INPUT_SOURCES   "io.github.scarecrow_de.desktop.input-sources"
 #define SCHEMA_XSETTINGS       "io.github.scarecrow_de.settings-daemon.plugins.xsettings"
-#define SCHEMA_MOUSE           "org.gnome.settings-daemon.peripherals.mouse"
+#define SCHEMA_MOUSE           "io.github.scarecrow_de.settings-daemon.peripherals.mouse"
 
 #define SETTINGS(s) g_hash_table_lookup (settings_schemas, (s))
 
