@@ -332,7 +332,7 @@ msgid ""
 msgstr ""
 "Determina si els espais de treball es gestionen dinàmicament o hi ha un "
 "nombre determinat d'espais de treball (determinat per la clau «num-"
-"workspaces» a «org.gnome.desktop.wm.preferences»)."
+"workspaces» a «io.github.scarecrow_de.desktop.wm.preferences»)."
 
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"

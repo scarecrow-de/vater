@@ -322,7 +322,7 @@ msgid ""
 msgstr ""
 "Determina se los espacis de trabalh son gerits d'un biais dinamica o se lo "
 "nombre d'espacis de trabalh es fixe (determinat per la clau num-workspaces "
-"dins org.gnome.desktop.wm.preferences)."
+"dins io.github.scarecrow_de.desktop.wm.preferences)."
 
 #: ../data/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"

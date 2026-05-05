@@ -311,7 +311,7 @@ msgstr "কর্মক্ষেত্রগুলি ডায়নামিক �
 #| msgid ""
 #| "Determines whether workspaces are managed dynamically or whether there's "
 #| "a static number of workspaces (determined by the num-workspaces key in "
-#| "org.gnome.desktop.wm.preferences)."
+#| "io.github.scarecrow_de.desktop.wm.preferences)."
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."

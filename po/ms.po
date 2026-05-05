@@ -315,7 +315,7 @@ msgid ""
 msgstr ""
 "Tentukan sama ada ruang kerja diurus secara dinamik atau sama ada terdapat "
 "bilangan ruang kerja statik (ditentukan oleh kunci num-workspaces key dalam "
-"org.gnome.desktop.wm.preferences)."
+"io.github.scarecrow_de.desktop.wm.preferences)."
 
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
 msgid "Workspaces only on primary"

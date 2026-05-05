@@ -64,9 +64,9 @@
 
 /* These are the different schemas we are keeping
  * a GSettings instance for */
-#define SCHEMA_GENERAL         "org.gnome.desktop.wm.preferences"
+#define SCHEMA_GENERAL         "io.github.scarecrow_de.desktop.wm.preferences"
 #define SCHEMA_MUTTER          "io.github.scarecrow_de.mutter"
-#define SCHEMA_INTERFACE       "org.gnome.desktop.interface"
+#define SCHEMA_INTERFACE       "io.github.scarecrow_de.desktop.interface"
 #define SCHEMA_INPUT_SOURCES   "io.github.scarecrow_de.desktop.input-sources"
 #define SCHEMA_XSETTINGS       "io.github.scarecrow_de.settings-daemon.plugins.xsettings"
 #define SCHEMA_MOUSE           "io.github.scarecrow_de.settings-daemon.peripherals.mouse"

@@ -311,7 +311,7 @@ msgid ""
 "gnome.desktop.wm.preferences)."
 msgstr ""
 "작업 공간을 동적으로 관리할지 아니면 작업 공간이 고정된 개수인지 지정합니다. "
-"(고정된 개수는 org.gnome.desktop.wm.preferences의 num-workspaces 키로 지정합"
+"(고정된 개수는 io.github.scarecrow_de.desktop.wm.preferences의 num-workspaces 키로 지정합"
 "니다.)"
 
 #: data/io.github.scarecrow_de.mutter.gschema.xml.in:50

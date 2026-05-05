@@ -2086,13 +2086,13 @@ meta_input_settings_init (MetaInputSettings *settings)
                    clutter_settings_get_default(), "double-click-time",
                    G_SETTINGS_BIND_GET);
 
-  priv->keyboard_a11y_settings = g_settings_new ("org.gnome.desktop.a11y.keyboard");
+  priv->keyboard_a11y_settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.keyboard");
   g_signal_connect (priv->keyboard_a11y_settings, "changed",
                     G_CALLBACK (meta_input_keyboard_a11y_settings_changed), settings);
   g_signal_connect (priv->seat, "kbd-a11y-flags-changed",
                     G_CALLBACK (on_keyboard_a11y_settings_changed), settings);
 
-  priv->mouse_a11y_settings = g_settings_new ("org.gnome.desktop.a11y.mouse");
+  priv->mouse_a11y_settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.mouse");
   g_signal_connect (priv->mouse_a11y_settings, "changed",
                     G_CALLBACK (meta_input_mouse_a11y_settings_changed), settings);
 

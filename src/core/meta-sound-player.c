@@ -209,7 +209,7 @@ meta_sound_player_init (MetaSoundPlayer *player)
 {
   player->queue = g_thread_pool_new ((GFunc) play_sound,
 				     player, 1, FALSE, NULL);
-  player->settings = g_settings_new ("org.gnome.desktop.sound");
+  player->settings = g_settings_new ("io.github.scarecrow_de.desktop.sound");
   player->context = create_context (player->settings);
 
   g_signal_connect (player->settings, "changed",

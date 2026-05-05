@@ -591,7 +591,7 @@ msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
-msgstr "خىزمەت رايونلىرى جانلىق باشقۇرۇلامدۇ ياكى خىزمەت رايونلىرىنىڭ سانى مۇقىم بولامدۇ بەلگىلەيدۇ(خىزمەت رايونلىرىنىڭ سانى org.gnome.desktop.wm.preferences دېگەن ئاچقۇچتا بەلگىلىنىدۇ)"
+msgstr "خىزمەت رايونلىرى جانلىق باشقۇرۇلامدۇ ياكى خىزمەت رايونلىرىنىڭ سانى مۇقىم بولامدۇ بەلگىلەيدۇ(خىزمەت رايونلىرىنىڭ سانى io.github.scarecrow_de.desktop.wm.preferences دېگەن ئاچقۇچتا بەلگىلىنىدۇ)"
 
 #: ../src/io.github.scarecrow_de.mutter.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
