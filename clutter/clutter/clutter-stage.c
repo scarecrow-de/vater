@@ -65,7 +65,7 @@
 #include "clutter-input-device-private.h"
 #include "clutter-main.h"
 #include "clutter-marshal.h"
-#include "clutter-mutter.h"
+#include "clutter-vater.h"
 #include "clutter-paint-context-private.h"
 #include "clutter-paint-volume-private.h"
 #include "clutter-pick-context-private.h"

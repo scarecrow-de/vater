@@ -1,5 +1,5 @@
 wayland_test_client_installed_tests_libexecdir = join_paths(
-  mutter_installed_tests_libexecdir,
+  vater_installed_tests_libexecdir,
   'wayland-test-clients',
 )
 
@@ -70,7 +70,7 @@ executable('meta-anonymous-file',
   dependencies: [
     glib_dep,
     wayland_client_dep,
-    libmutter_dep,
+    libvater_dep,
   ],
   install: have_installed_tests,
   install_dir: wayland_test_client_installed_tests_libexecdir,

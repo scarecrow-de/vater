@@ -39,7 +39,7 @@
 #include "cogl-private.h"
 #include "cogl-object.h"
 #include "cogl-context-private.h"
-#include "cogl-mutter.h"
+#include "cogl-vater.h"
 
 #include "cogl-renderer.h"
 #include "cogl-renderer-private.h"

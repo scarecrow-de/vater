@@ -233,7 +233,7 @@ meta_laters_add (MetaLaters     *laters,
       later->source_id = g_idle_add_full (META_PRIORITY_RESIZE,
                                           invoke_later_idle,
                                           later, NULL);
-      g_source_set_name_by_id (later->source_id, "[mutter] invoke_later_idle");
+      g_source_set_name_by_id (later->source_id, "[vater] invoke_later_idle");
       clutter_stage_schedule_update (stage);
       break;
     case META_LATER_CALC_SHOWING:
@@ -246,7 +246,7 @@ meta_laters_add (MetaLaters     *laters,
       later->source_id = g_idle_add_full (G_PRIORITY_DEFAULT_IDLE,
                                           invoke_later_idle,
                                           later, NULL);
-      g_source_set_name_by_id (later->source_id, "[mutter] invoke_later_idle");
+      g_source_set_name_by_id (later->source_id, "[vater] invoke_later_idle");
       break;
     }
 

@@ -61,14 +61,14 @@ static FILE* logfile = NULL;
 static void
 ensure_logfile (void)
 {
-  if (logfile == NULL && g_getenv ("MUTTER_USE_LOGFILE"))
+  if (logfile == NULL && g_getenv ("VATER_USE_LOGFILE"))
     {
       char *filename = NULL;
       char *tmpl;
       int fd;
       GError *err;
 
-      tmpl = g_strdup_printf ("mutter-%d-debug-log-XXXXXX",
+      tmpl = g_strdup_printf ("vater-%d-debug-log-XXXXXX",
                               (int) getpid ());
 
       err = NULL;
@@ -115,7 +115,7 @@ meta_set_verbose (gboolean setting)
 {
 #ifndef WITH_VERBOSE_MODE
   if (setting)
-    meta_fatal (_("Mutter was compiled without support for verbose mode\n"));
+    meta_fatal (_("Vater was compiled without support for verbose mode\n"));
 #else
   if (setting)
     ensure_logfile ();
@@ -627,7 +627,7 @@ meta_show_dialog (const char *type,
     }
 
   append_argument (args, "--class");
-  append_argument (args, "mutter-dialog");
+  append_argument (args, "vater-dialog");
   append_argument (args, "--title");
   append_argument (args, "");
   append_argument (args, "--text");

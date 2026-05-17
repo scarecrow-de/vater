@@ -8,7 +8,7 @@ clutter_c_args = [
   '-DCLUTTER_SYSCONFDIR="@0@"'.format(join_paths(prefix, sysconfdir)),
   '-DCLUTTER_COMPILATION=1',
   '-DCOGL_DISABLE_DEPRECATION_WARNINGS',
-  '-DCOGL_ENABLE_MUTTER_API',
+  '-DCOGL_ENABLE_VATER_API',
   '-DG_LOG_DOMAIN="Clutter"',
 ]
 
@@ -81,7 +81,7 @@ endif
 clutter_deps = [
   clutter_pkg_deps,
   clutter_pkg_private_deps,
-  libmutter_cogl_dep,
+  libvater_cogl_dep,
   m_dep
 ]
 

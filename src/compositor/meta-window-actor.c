@@ -137,7 +137,7 @@ meta_window_actor_class_init (MetaWindowActorClass *klass)
    * @actor: the #MetaWindowActor instance
    *
    * The ::first-frame signal will be emitted the first time a frame
-   * of window contents has been drawn by the application and Mutter
+   * of window contents has been drawn by the application and Vater
    * has had the chance to drawn that frame to the screen. If the
    * window starts off initially hidden, obscured, or on on a
    * different workspace, the ::first-frame signal will be emitted

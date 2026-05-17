@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<KeyListEntries schema="io.github.scarecrow_de.mutter.wayland.keybindings"
+<KeyListEntries schema="io.github.scarecrow_de.vater.wayland.keybindings"
                 group="system"
                 name="System"
-                wm_name="Mutter"
-                package="mutter">
+                wm_name="Vater"
+                package="vater">
 
 	<KeyListEntry name="restore-shortcuts" description="Restore the keyboard shortcuts"/>
 

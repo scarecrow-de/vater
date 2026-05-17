@@ -114,7 +114,7 @@ option('clutter_tests',
 option('core_tests',
   type: 'boolean',
   value: true,
-  description: 'Enable mutter core tests'
+  description: 'Enable vater core tests'
 )
 
 option('tests',
@@ -132,7 +132,7 @@ option('profiler',
 option('installed_tests',
   type: 'boolean',
   value: true,
-  description: 'Enable mutter installed tests'
+  description: 'Enable vater installed tests'
 )
 
 option('verbose',

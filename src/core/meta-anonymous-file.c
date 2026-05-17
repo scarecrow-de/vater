@@ -98,7 +98,7 @@ create_anonymous_file (off_t size)
   int fd, ret;
 
 #if defined(HAVE_MEMFD_CREATE)
-  fd = memfd_create ("mutter-shared", MFD_CLOEXEC | MFD_ALLOW_SEALING);
+  fd = memfd_create ("vater-shared", MFD_CLOEXEC | MFD_ALLOW_SEALING);
   if (fd >= 0)
     {
       /* We can add this seal before calling posix_fallocate(), as
@@ -112,7 +112,7 @@ create_anonymous_file (off_t size)
   else
 #endif
     {
-      static const char template[] = "/mutter-shared-XXXXXX";
+      static const char template[] = "/vater-shared-XXXXXX";
       const char *path;
       char *name;
 

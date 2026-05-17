@@ -37,7 +37,7 @@
 
 #include "meta-dbus-remote-desktop.h"
 
-#define META_REMOTE_DESKTOP_SESSION_DBUS_PATH "/io/github/scarecrow_de/Mutter/RemoteDesktop/Session"
+#define META_REMOTE_DESKTOP_SESSION_DBUS_PATH "/io/github/scarecrow_de/Vater/RemoteDesktop/Session"
 
 enum _MetaRemoteDesktopNotifyAxisFlags
 {

@@ -45,7 +45,7 @@
  * - window group, accessible with meta_get_window_group_for_display()
  * - top window group, accessible with meta_get_top_window_group_for_display()
  *
- * Mutter will place actors representing windows in the window group, except for
+ * Vater will place actors representing windows in the window group, except for
  * override-redirect windows (ie. popups and menus) which will be placed in the
  * top window group.
  */
@@ -60,7 +60,7 @@
 #include "backends/x11/meta-backend-x11.h"
 #include "backends/x11/meta-event-x11.h"
 #include "backends/x11/meta-stage-x11.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "cogl/cogl.h"
 #include "compositor/meta-later-private.h"
 #include "compositor/meta-window-actor-x11.h"
@@ -70,7 +70,7 @@
 #include "core/frame.h"
 #include "core/util-private.h"
 #include "core/window-private.h"
-#include "meta/compositor-mutter.h"
+#include "meta/compositor-vater.h"
 #include "meta/main.h"
 #include "meta/meta-backend.h"
 #include "meta/meta-background-actor.h"
@@ -496,7 +496,7 @@ redirect_windows (MetaX11Display *x11_display)
 
   n_retries = 0;
 
-  /* Some compositors (like old versions of Mutter) might not properly unredirect
+  /* Some compositors (like old versions of Vater) might not properly unredirect
    * subwindows before destroying the WM selection window; so we wait a while
    * for such a compositor to exit before giving up.
    */

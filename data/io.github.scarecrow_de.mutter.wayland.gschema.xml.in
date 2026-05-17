@@ -1,11 +1,11 @@
 <schemalist>
 
-  <flags id="io.github.scarecrow_de.mutter.MetaXwaylandDisableExtension">
+  <flags id="io.github.scarecrow_de.vater.MetaXwaylandDisableExtension">
     <value nick="Security" value="1"/>
     <value nick="Xtest" value="2"/>
   </flags>
 
-  <schema id="io.github.scarecrow_de.mutter.wayland.keybindings" path="/io/github/scarecrow_de/mutter/wayland/keybindings/"
+  <schema id="io.github.scarecrow_de.vater.wayland.keybindings" path="/io/github/scarecrow_de/vater/wayland/keybindings/"
 	  gettext-domain="@GETTEXT_DOMAIN@">
     <key name="switch-to-session-1" type="as">
       <default><![CDATA[['<Primary><Alt>F1']]]></default>
@@ -62,7 +62,7 @@
   </schema>
 
 
-  <schema id="io.github.scarecrow_de.mutter.wayland" path="/io/github/scarecrow_de/mutter/wayland/"
+  <schema id="io.github.scarecrow_de.vater.wayland" path="/io/github/scarecrow_de/vater/wayland/"
           gettext-domain="@GETTEXT_DOMAIN@">
 
     <key name="xwayland-allow-grabs" type="b">
@@ -111,7 +111,7 @@
     </key>
 
     <key name="xwayland-disable-extension"
-        flags='io.github.scarecrow_de.mutter.MetaXwaylandDisableExtension'>
+        flags='io.github.scarecrow_de.vater.MetaXwaylandDisableExtension'>
       <default>[]</default>
       <summary>Disable selected X extensions in Xwayland</summary>
       <description>

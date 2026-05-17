@@ -1024,7 +1024,7 @@ create_for_builtin_display_rotation (MetaMonitorConfigManager *config_manager,
        * The transform coming from the accelerometer should be applied to
        * the crtc as is, without taking panel-orientation into account, this
        * is done so that non panel-orientation aware desktop environments do the
-       * right thing. Mutter corrects for panel-orientation when applying the
+       * right thing. Vater corrects for panel-orientation when applying the
        * transform from a logical-monitor-config, so we must convert here.
        */
       MetaMonitor *panel =

@@ -21,7 +21,7 @@
  * SECTION:restart
  * @short_description: Smoothly restart the compositor
  *
- * There are some cases where we need to restart Mutter in order
+ * There are some cases where we need to restart Vater in order
  * to deal with changes in state - the particular case inspiring
  * this is enabling or disabling stereo output. To make this
  * fairly smooth for the user, we need to do two things:
@@ -100,7 +100,7 @@ restart_message_painted (gpointer data)
  * meta_restart:
  * @message: (allow-none): message to display to the user, or %NULL
  *
- * Starts the process of restarting the compositor. Note that Mutter's
+ * Starts the process of restarting the compositor. Note that Vater's
  * involvement here is to make the restart visually smooth for the
  * user - it cannot itself safely reexec a program that embeds libmuttter.
  * So in order for this to work, the compositor must handle two
@@ -118,7 +118,7 @@ meta_restart (const char *message)
   int helper_out_fd;
 
   static const char * const helper_argv[] = {
-    MUTTER_LIBEXECDIR "/mutter-restart-helper", NULL
+    VATER_LIBEXECDIR "/vater-restart-helper", NULL
   };
 
   if (message && meta_display_show_restart_message (display, message))
@@ -184,7 +184,7 @@ meta_restart (const char *message)
 /**
  * meta_is_restart:
  *
- * Returns %TRUE if this instance of Mutter comes from Mutter
+ * Returns %TRUE if this instance of Vater comes from Vater
  * restarting itself (for example to enable/disable stereo.)
  * See meta_restart(). If this is the case, any startup visuals
  * or animations should be suppressed.

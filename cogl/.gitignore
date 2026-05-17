@@ -38,7 +38,7 @@ cogl-enum-types.h
 cogl-gl-header.h
 cogl-config.h
 cogl-config.h.in
-cogl-mutter-config.h
+cogl-vater-config.h
 config.log
 config.lt
 config.status

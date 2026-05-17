@@ -189,7 +189,7 @@ create_context (GSettings *settings)
       return NULL;
     }
 
-  ca_proplist_sets (props, CA_PROP_APPLICATION_NAME, "Mutter");
+  ca_proplist_sets (props, CA_PROP_APPLICATION_NAME, "Vater");
 
   enabled = g_settings_get_boolean (settings, EVENT_SOUNDS_KEY);
   ca_proplist_sets (props, CA_PROP_CANBERRA_ENABLE, enabled ? "1" : "0");

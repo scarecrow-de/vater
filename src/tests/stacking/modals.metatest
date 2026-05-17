@@ -7,7 +7,7 @@ new_client w wayland
 # Then make sure that hiding the transient can hide without causing
 # issues.
 
-# https://gitlab.gnome.org/GNOME/mutter/-/issues/862
+# https://gitlab.gnome.org/GNOME/vater/-/issues/862
 
 create w/1 csd
 create w/2 csd

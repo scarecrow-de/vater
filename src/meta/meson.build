@@ -1,9 +1,9 @@
-mutter_public_headers = [
+vater_public_headers = [
   'barrier.h',
   'boxes.h',
   'common.h',
   'compositor.h',
-  'compositor-mutter.h',
+  'compositor-vater.h',
   'display.h',
   'group.h',
   'keybindings.h',
@@ -46,51 +46,51 @@ mutter_public_headers = [
 ]
 
 if have_wayland
-  mutter_public_headers += [
+  vater_public_headers += [
     'meta-wayland-client.h',
   ]
 endif
 
 if have_x11
-  mutter_public_headers += [
+  vater_public_headers += [
     'meta-x11-display.h',
     'meta-x11-errors.h',
   ]
 endif
 
-install_headers(mutter_public_headers,
-  subdir: mutter_includesubdir
+install_headers(vater_public_headers,
+  subdir: vater_includesubdir
 )
 
-mutter_public_header_files = files(mutter_public_headers)
+vater_public_header_files = files(vater_public_headers)
 
-mutter_enum_types = gnome.mkenums('meta-enum-types',
-  sources: [mutter_public_headers],
+vater_enum_types = gnome.mkenums('meta-enum-types',
+  sources: [vater_public_headers],
   c_template: 'meta-enum-types.c.in',
   h_template: 'meta-enum-types.h.in',
-  install_dir: mutter_includedir,
+  install_dir: vater_includedir,
   install_header: true,
 )
 
-mutter_version_array = meson.project_version().split('.')
-mutter_version_major = mutter_version_array[0]
-mutter_version_minor = mutter_version_array[1]
-mutter_version_micro = mutter_version_array[2]
+vater_version_array = meson.project_version().split('.')
+vater_version_major = vater_version_array[0]
+vater_version_minor = vater_version_array[1]
+vater_version_micro = vater_version_array[2]
 
-mutter_version_cdata = configuration_data()
-mutter_version_cdata.set('MUTTER_MAJOR_VERSION',
-                         '@0@'.format(mutter_version_major))
-mutter_version_cdata.set('MUTTER_MINOR_VERSION',
-                         '@0@'.format(mutter_version_minor))
-mutter_version_cdata.set('MUTTER_MICRO_VERSION',
-                         '@0@'.format(mutter_version_micro))
-mutter_version_cdata.set('MUTTER_PLUGIN_API_VERSION',
-                         '@0@'.format(mutter_plugin_api_version))
+vater_version_cdata = configuration_data()
+vater_version_cdata.set('VATER_MAJOR_VERSION',
+                         '@0@'.format(vater_version_major))
+vater_version_cdata.set('VATER_MINOR_VERSION',
+                         '@0@'.format(vater_version_minor))
+vater_version_cdata.set('VATER_MICRO_VERSION',
+                         '@0@'.format(vater_version_micro))
+vater_version_cdata.set('VATER_PLUGIN_API_VERSION',
+                         '@0@'.format(vater_plugin_api_version))
 
-mutter_version = configure_file(
+vater_version = configure_file(
   input: 'meta-version.h.in',
   output: 'meta-version.h',
-  configuration: mutter_version_cdata,
-  install_dir: mutter_includedir,
+  configuration: vater_version_cdata,
+  install_dir: vater_includedir,
   install: true,
 )

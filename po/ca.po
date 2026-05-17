@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity 2.24\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/mutter/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vater/issues\n"
 "POT-Creation-Date: 2020-09-01 07:41+0000\n"
 "PO-Revision-Date: 2020-09-07 09:17+0200\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
@@ -23,243 +23,243 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 3.36.0\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-vater-navigation.xml:6
 msgid "Navigation"
 msgstr "Navegació"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-vater-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Mou la finestra a l'espai de treball 1"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-vater-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Mou la finestra a l'espai de treball 2"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-vater-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Mou la finestra a l'espai de treball 3"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-vater-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Mou la finestra a l'espai de treball 4"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-vater-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Mou la finestra a l'últim espai de treball"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-vater-navigation.xml:24
 msgid "Move window one workspace up"
 msgstr "Mou la finestra un espai de treball amunt"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-vater-navigation.xml:27
 msgid "Move window one workspace down"
 msgstr "Mou la finestra un espai de treball avall"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-vater-navigation.xml:30
 msgid "Move window one monitor to the left"
 msgstr "Mou la finestra un monitor a l'esquerra"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-vater-navigation.xml:33
 msgid "Move window one monitor to the right"
 msgstr "Mou la finestra un monitor a la dreta"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-vater-navigation.xml:36
 msgid "Move window one monitor up"
 msgstr "Mou la finestra un monitor amunt"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-vater-navigation.xml:39
 msgid "Move window one monitor down"
 msgstr "Mou la finestra un monitor avall"
 
-#: data/50-mutter-navigation.xml:43
+#: data/50-vater-navigation.xml:43
 msgid "Switch applications"
 msgstr "Canvia d'aplicacions"
 
-#: data/50-mutter-navigation.xml:48
+#: data/50-vater-navigation.xml:48
 msgid "Switch to previous application"
 msgstr "Canvia a l'aplicació anterior"
 
-#: data/50-mutter-navigation.xml:52
+#: data/50-vater-navigation.xml:52
 msgid "Switch windows"
 msgstr "Canvia de finestres"
 
-#: data/50-mutter-navigation.xml:57
+#: data/50-vater-navigation.xml:57
 msgid "Switch to previous window"
 msgstr "Canvia a la finestra anterior"
 
-#: data/50-mutter-navigation.xml:61
+#: data/50-vater-navigation.xml:61
 msgid "Switch windows of an application"
 msgstr "Canvia entre les finestres d'una aplicació"
 
-#: data/50-mutter-navigation.xml:66
+#: data/50-vater-navigation.xml:66
 msgid "Switch to previous window of an application"
 msgstr "Canvia a la finestra anterior d'una aplicació"
 
-#: data/50-mutter-navigation.xml:70
+#: data/50-vater-navigation.xml:70
 msgid "Switch system controls"
 msgstr "Canvia els controls del sistema"
 
-#: data/50-mutter-navigation.xml:75
+#: data/50-vater-navigation.xml:75
 msgid "Switch to previous system control"
 msgstr "Canvia al control del sistema anterior"
 
-#: data/50-mutter-navigation.xml:79
+#: data/50-vater-navigation.xml:79
 msgid "Switch windows directly"
 msgstr "Canvia immediatament entre finestres"
 
-#: data/50-mutter-navigation.xml:84
+#: data/50-vater-navigation.xml:84
 msgid "Switch directly to previous window"
 msgstr "Canvia immediatament a la finestra anterior"
 
-#: data/50-mutter-navigation.xml:88
+#: data/50-vater-navigation.xml:88
 msgid "Switch windows of an app directly"
 msgstr "Canvia immediatament entre les finestres d'una aplicació"
 
-#: data/50-mutter-navigation.xml:93
+#: data/50-vater-navigation.xml:93
 msgid "Switch directly to previous window of an app"
 msgstr "Canvia immediatament a la finestra anterior d'una aplicació"
 
-#: data/50-mutter-navigation.xml:97
+#: data/50-vater-navigation.xml:97
 msgid "Switch system controls directly"
 msgstr "Canvia immediatament entre els controls del sistema"
 
-#: data/50-mutter-navigation.xml:102
+#: data/50-vater-navigation.xml:102
 msgid "Switch directly to previous system control"
 msgstr "Canvia immediatament al control del sistema anterior"
 
-#: data/50-mutter-navigation.xml:105
+#: data/50-vater-navigation.xml:105
 msgid "Hide all normal windows"
 msgstr "Oculta totes les finestres normals"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-vater-navigation.xml:108
 msgid "Switch to workspace 1"
 msgstr "Canvia a l'espai de treball 1"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-vater-navigation.xml:111
 msgid "Switch to workspace 2"
 msgstr "Canvia a l'espai de treball 2"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-vater-navigation.xml:114
 msgid "Switch to workspace 3"
 msgstr "Canvia a l'espai de treball 3"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-vater-navigation.xml:117
 msgid "Switch to workspace 4"
 msgstr "Canvia a l'espai de treball 4"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-vater-navigation.xml:120
 msgid "Switch to last workspace"
 msgstr "Canvia a l'últim espai de treball"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-vater-navigation.xml:123
 msgid "Move to workspace above"
 msgstr "Mou a l'espai de treball de sobre"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-vater-navigation.xml:126
 msgid "Move to workspace below"
 msgstr "Mou a l'espai de treball de sota"
 
-#: data/50-mutter-system.xml:6 data/50-mutter-wayland.xml:6
+#: data/50-vater-system.xml:6 data/50-vater-wayland.xml:6
 msgid "System"
 msgstr "Sistema"
 
-#: data/50-mutter-system.xml:8
+#: data/50-vater-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Mostra l'indicador d'execució d'aplicacions"
 
-#: data/50-mutter-system.xml:10
+#: data/50-vater-system.xml:10
 msgid "Show the activities overview"
 msgstr "Mostra la vista general d'activitats"
 
-#: data/50-mutter-wayland.xml:8
+#: data/50-vater-wayland.xml:8
 msgid "Restore the keyboard shortcuts"
 msgstr "Restaura les dreceres de teclat"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-vater-windows.xml:6
 msgid "Windows"
 msgstr "Finestres"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-vater-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Activa el menú de finestra"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-vater-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Canvia entre el mode a pantalla completa"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-vater-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Canvia l'estat de maximització"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-vater-windows.xml:14
 msgid "Maximize window"
 msgstr "Maximitza la finestra"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-vater-windows.xml:16
 msgid "Restore window"
 msgstr "Restaura la finestra"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-vater-windows.xml:18
 msgid "Close window"
 msgstr "Tanca la finestra"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-vater-windows.xml:20
 msgid "Hide window"
 msgstr "Oculta la finestra"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-vater-windows.xml:22
 msgid "Move window"
 msgstr "Mou la finestra"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-vater-windows.xml:24
 msgid "Resize window"
 msgstr "Redimensiona la finestra"
 
-#: data/50-mutter-windows.xml:27
+#: data/50-vater-windows.xml:27
 msgid "Toggle window on all workspaces or one"
 msgstr ""
 "Canvia la funció que fa que la finestra estigui en tots els espais de "
 "treball o només en un"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-vater-windows.xml:29
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Alça la finestra si està coberta per una altra; altrament, baixa-la"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-vater-windows.xml:31
 msgid "Raise window above other windows"
 msgstr "Alça la finestra per damunt de les altres"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-vater-windows.xml:33
 msgid "Lower window below other windows"
 msgstr "Baixa la finestra sota les altres"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-vater-windows.xml:35
 msgid "Maximize window vertically"
 msgstr "Maximitza la finestra verticalment"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-vater-windows.xml:37
 msgid "Maximize window horizontally"
 msgstr "Maximitza la finestra horitzontalment"
 
-#: data/50-mutter-windows.xml:41
+#: data/50-vater-windows.xml:41
 msgid "View split on left"
 msgstr "Mostra la partició a l'esquerra"
 
-#: data/50-mutter-windows.xml:45
+#: data/50-vater-windows.xml:45
 msgid "View split on right"
 msgstr "Mostra la partició a la dreta"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/vater.desktop.in:4
+msgid "Vater"
+msgstr "Vater"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Modificador que s'utilitzarà per les operacions ampliades de gestió de "
 "finestres"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -272,11 +272,11 @@ msgstr ""
 "PC. El valor d'aquesta vinculació s'espera que sigui el predeterminat o text "
 "en blanc."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Adjunta els diàlegs modals"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -286,13 +286,13 @@ msgstr ""
 "diàlegs modals apareixeran adjuntats a la barra de títol de la finestra mare "
 "i es mouran juntament amb aquesta."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Habilita la tessel·lització a les vores en deixar anar les finestres a les "
 "vores de la pantalla"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -303,11 +303,11 @@ msgstr ""
 "deixar-les anar a les vores verticals de la pantalla. Si es deixen anar a la "
 "vora superior de la pantalla es maximitzaran completament."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Els espais de treball es gestionen dinàmicament"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -317,11 +317,11 @@ msgstr ""
 "nombre determinat d'espais de treball (determinat per la clau «num-"
 "workspaces» a «io.github.scarecrow_de.desktop.wm.preferences»)."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Espais de treball només en el primari"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -329,11 +329,11 @@ msgstr ""
 "Determina si el canvi d'espai de treball hauria de ser per les finestres en "
 "tots els monitors o només en les finestres del monitor primari."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Sense finestres emergents a les pestanyes"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -341,11 +341,11 @@ msgstr ""
 "Determina si s'ha d'inhabilitar el quadre que es mostra a les finestres "
 "emergents i ressaltades en commutar entre finestres."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Retarda el canvi del focus fins que s'aturi el punter"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -355,11 +355,11 @@ msgstr ""
 "canviarà el focus immediatament quan s'entri a una finestra, només es "
 "canviarà quan el punter deixi de moure's."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Amplada del contorn arrossegable"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -368,13 +368,13 @@ msgstr ""
 "tema no són suficients, s'afegiran contorns invisibles per aconseguir aquest "
 "valor."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 "Maximitza automàticament les finestres que gairebé facin la mida de la "
 "pantalla"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -382,11 +382,11 @@ msgstr ""
 "Si s'habilita, les finestres que inicialment gairebé fan la mida de la "
 "pantalla es maximitzaran automàticament."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Posiciona les finestres noves al centre"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -394,21 +394,21 @@ msgstr ""
 "Si és «true» (cert), les finestres noves seran posicionades al centre de la "
 "pantalla activa del monitor."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Habilita les funcionalitats experimentals"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"vater default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “rt-scheduler” — makes "
-"mutter request a low priority real-time scheduling. The executable or user "
+"vater request a low priority real-time scheduling. The executable or user "
 "must have CAP_SYS_NICE. Requires a restart. • “autostart-xwayland” — "
 "initializes Xwayland lazily if there are X11 clients. Requires restart."
 msgstr ""
@@ -418,27 +418,27 @@ msgstr ""
 "experimental no es requereix per estar disponible o configurable. No espereu "
 "afegir res en aquest ajustament per ser una prova futura. Actualment les "
 "paraules clau possibles són: • “scale-monitor-framebuffer” — fa que el "
-"mutter organitzi els monitors lògics en un espai de coordenades lògiques, a "
+"vater organitzi els monitors lògics en un espai de coordenades lògiques, a "
 "l'hora de gestionar monitors HiDPI, de manera que redimensiona els marcs de "
 "memòria dels monitors en comptes del contingut de les finestres. No "
-"requereix un reinici. • “rt-scheduler” — fa que el mutter demani una "
+"requereix un reinici. • “rt-scheduler” — fa que el vater demani una "
 "planificació a temps real de baixa prioritat. El programa o l'usuari han de "
 "tenir la «CAP_SYS_NICE». Fa falta reiniciar. • “autostart-xwayland” — inicia "
 "el Xwayland a demanda si hi ha clients d'X11. Fa falta reiniciar."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Modificar a usar per localitzar el punter"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "Aquesta clau inicialitzarà l'acció «locate pointer»."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:142
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:142
 msgid "Timeout for check-alive ping"
 msgstr "Temps d'espera per a la comprovació «ping alive»"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:143
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:143
 msgid ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
@@ -447,81 +447,81 @@ msgstr ""
 "«ping» per no ser detectat com a congelat. L'ús de 0 inhabilitarà "
 "completament la comprovació."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "Selecció de finestra entre les emergents d'una pestanya"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "Cancel·lació de les finestres emergents a les pestanyes"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:175
 msgid "Switch monitor configurations"
 msgstr "Canvia configuracions de monitor"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:180
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:180
 msgid "Rotates the built-in monitor configuration"
 msgstr "Gira la configuració del monitor integrada"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:12
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:12
 msgid "Switch to VT 1"
 msgstr "Canvia al terminal virtual 1"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:16
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:16
 msgid "Switch to VT 2"
 msgstr "Canvia al terminal virtual 2"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:20
 msgid "Switch to VT 3"
 msgstr "Canvia al terminal virtual 3"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:24
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:24
 msgid "Switch to VT 4"
 msgstr "Canvia al terminal virtual 4"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:28
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:28
 msgid "Switch to VT 5"
 msgstr "Canvia al terminal virtual 5"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:32
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:32
 msgid "Switch to VT 6"
 msgstr "Canvia al terminal virtual 6"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:36
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:36
 msgid "Switch to VT 7"
 msgstr "Canvia al terminal virtual 7"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:40
 msgid "Switch to VT 8"
 msgstr "Canvia al terminal virtual 8"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:44
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:44
 msgid "Switch to VT 9"
 msgstr "Canvia al terminal virtual 9"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:48
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:48
 msgid "Switch to VT 10"
 msgstr "Canvia al terminal virtual 10"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:52
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:52
 msgid "Switch to VT 11"
 msgstr "Canvia al terminal virtual 11"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:56
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:56
 msgid "Switch to VT 12"
 msgstr "Canvia al terminal virtual 12"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:60
 msgid "Re-enable shortcuts"
 msgstr "Torna a habilitar les dreceres"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:70
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:70
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr ""
 "Permetre la captura amb Xwayland per bloquejar el focus del teclat amb "
 "Xwayland"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:71
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:71
 msgid ""
 "Allow all keyboard events to be routed to X11 “override redirect” windows "
 "with a grab when running in Xwayland. This option is to support X11 clients "
@@ -544,11 +544,11 @@ msgstr ""
 "ClientMessage de X11 específic a la finestra arrel, o bé estar entre les "
 "aplicacions permeses en la clau «xwayland-grab-access-rules»."
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:90
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Les aplicacions Xwayland poden capturar el teclat"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:91
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:91
 msgid ""
 "List the resource names or resource class of X11 windows either allowed or "
 "not allowed to issue X11 keyboard grabs under Xwayland. The resource name or "
@@ -573,11 +573,11 @@ msgstr ""
 "existent si utilitzen una drecera de teclat concreta definida en la clau de "
 "drecera de teclat “restore-shortcuts”."
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:116
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:116
 msgid "Disable selected X extensions in Xwayland"
 msgstr "Inhabilita les extensions de X a Xwayland"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:117
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:117
 msgid ""
 "This option disables the selected X extensions in Xwayland if Xwayland was "
 "built with support for those X extensions. This option has no effect if "
@@ -730,29 +730,29 @@ msgstr "_Força'n la sortida"
 msgid "_Wait"
 msgstr "_Espera"
 
-#: src/core/mutter.c:38
+#: src/core/vater.c:38
 #, c-format
 msgid ""
-"mutter %s\n"
+"vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"Mutter %s\n"
+"Vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., i d'altres\n"
 "Això és programari lliure; vegeu els fitxers de codi font per conèixer-ne\n"
 "les condicions de còpia.\n"
 "No hi ha CAP garantia; ni tan sols la garantia implícita de COMERCIABILITAT\n"
 "o ADEQUACIÓ A PER UN PROPÒSIT PARTICULAR.\n"
 
-#: src/core/mutter.c:52
+#: src/core/vater.c:52
 msgid "Print version"
 msgstr "Escriu versió"
 
-#: src/core/mutter.c:58
-msgid "Mutter plugin to use"
-msgstr "Connector del Mutter a utilitzar"
+#: src/core/vater.c:58
+msgid "Vater plugin to use"
+msgstr "Connector del Vater a utilitzar"
 
 #: src/core/prefs.c:1911
 #, c-format
@@ -760,8 +760,8 @@ msgid "Workspace %d"
 msgstr "Espai de treball %d"
 
 #: src/core/util.c:118
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter es va compilar sense compatibilitat per al mode detallat\n"
+msgid "Vater was compiled without support for verbose mode\n"
+msgstr "Vater es va compilar sense compatibilitat per al mode detallat\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:568
 #, c-format

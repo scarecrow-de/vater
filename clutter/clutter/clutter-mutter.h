@@ -20,8 +20,8 @@
  *
  */
 
-#ifndef __CLUTTER_MUTTER_H__
-#define __CLUTTER_MUTTER_H__
+#ifndef __CLUTTER_VATER_H__
+#define __CLUTTER_VATER_H__
 
 #define __CLUTTER_H_INSIDE__
 
@@ -74,4 +74,4 @@ ClutterFrameClock * clutter_actor_pick_frame_clock (ClutterActor  *self,
 
 #undef __CLUTTER_H_INSIDE__
 
-#endif /* __CLUTTER_MUTTER_H__ */
+#endif /* __CLUTTER_VATER_H__ */

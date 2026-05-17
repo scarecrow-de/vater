@@ -1638,7 +1638,7 @@ meta_ui_frame_handle_event (MetaUIFrame *frame,
       ClutterEventSequence *sequence;
       MetaFrames *frames = frame->frames;
 
-      /* In X11, mutter sets up passive touch grabs which basically
+      /* In X11, vater sets up passive touch grabs which basically
        * means we handle those events twice (once through the passive
        * grab, and then through XISelectEvents).
        *

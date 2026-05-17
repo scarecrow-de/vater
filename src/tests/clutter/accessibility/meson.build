@@ -14,8 +14,8 @@ clutter_test_accessibility_c_args += clutter_debug_c_args
 
 clutter_accessibility_tests_dependencies = [
   clutter_deps,
-  libmutter_clutter_dep,
-  libmutter_dep,
+  libvater_clutter_dep,
+  libvater_dep,
 ]
 
 clutter_accessibility_tests = [

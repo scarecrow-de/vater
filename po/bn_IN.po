@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bn_IN\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/mutter/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vater/issues\n"
 "POT-Creation-Date: 2020-08-04 08:31+0000\n"
 "PO-Revision-Date: 2020-08-20 20:02+0530\n"
 "Last-Translator: Akarshan Biswas <akarshan.biswas@hotmail.com>\n"
@@ -28,239 +28,239 @@ msgstr ""
 "X-DamnedLies-Scope: partial\n"
 "X-Generator: Gtranslator 3.36.0\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-vater-navigation.xml:6
 msgid "Navigation"
 msgstr "ন্যাভিগেশন"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-vater-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "উইন্ডো কর্মক্ষেত্র ১ এ সরান"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-vater-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "উইন্ডো কর্মক্ষেত্র ২ এ সরান"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-vater-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "উইন্ডো কর্মক্ষেত্র ৩ এ সরান"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-vater-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "উইন্ডো কর্মক্ষেত্র ৪ এ সরান"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-vater-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "উইন্ডো শেষ কর্মক্ষেত্র এ সরান"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-vater-navigation.xml:24
 msgid "Move window one workspace up"
 msgstr "উইন্ডো এক কর্মক্ষেত্র উপরে সরান"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-vater-navigation.xml:27
 msgid "Move window one workspace down"
 msgstr "উইন্ডো এক কর্মক্ষেত্র নীচে সরান"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-vater-navigation.xml:30
 msgid "Move window one monitor to the left"
 msgstr "উইন্ডো বাম দিকে এক মনিটর সরান"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-vater-navigation.xml:33
 msgid "Move window one monitor to the right"
 msgstr "উইন্ডো ডান দিকে এক মনিটর সরান"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-vater-navigation.xml:36
 msgid "Move window one monitor up"
 msgstr "উইন্ডো এক মনিটর উপরে সরান"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-vater-navigation.xml:39
 msgid "Move window one monitor down"
 msgstr "উইন্ডো এক মনিটর নীচে সরান"
 
-#: data/50-mutter-navigation.xml:43
+#: data/50-vater-navigation.xml:43
 msgid "Switch applications"
 msgstr "অ্যাপ্লিকেশনগুলি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:48
+#: data/50-vater-navigation.xml:48
 msgid "Switch to previous application"
 msgstr "পূর্ববর্তী অ্যাপ্লিকেশনে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:52
+#: data/50-vater-navigation.xml:52
 msgid "Switch windows"
 msgstr "উইন্ডোগুলি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:57
+#: data/50-vater-navigation.xml:57
 msgid "Switch to previous window"
 msgstr "পূর্ববর্তী উইন্ডোতে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:61
+#: data/50-vater-navigation.xml:61
 msgid "Switch windows of an application"
 msgstr "কোনো অ্যাপ্লিকেশনের উইন্ডোগুলি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:66
+#: data/50-vater-navigation.xml:66
 msgid "Switch to previous window of an application"
 msgstr "অ্যাপ্লিকেশনের পূর্ববর্তী উইন্ডোতে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:70
+#: data/50-vater-navigation.xml:70
 msgid "Switch system controls"
 msgstr "সিস্টেম কন্ট্রোলগুলি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:75
+#: data/50-vater-navigation.xml:75
 msgid "Switch to previous system control"
 msgstr "পূর্ববর্তী সিস্টেম কন্ট্রোলে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:79
+#: data/50-vater-navigation.xml:79
 msgid "Switch windows directly"
 msgstr "উইন্ডোগুলি সরাসরি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:84
+#: data/50-vater-navigation.xml:84
 msgid "Switch directly to previous window"
 msgstr "সরাসরি পূর্ববর্তী উইন্ডোতে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:88
+#: data/50-vater-navigation.xml:88
 msgid "Switch windows of an app directly"
 msgstr "কোনো অ্যাপ্লিকেশনের উইন্ডোগুলি সরাসরি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:93
+#: data/50-vater-navigation.xml:93
 msgid "Switch directly to previous window of an app"
 msgstr "সরাসরি কোনো অ্যাপ্লিকেশনের পূর্ববর্তী উইন্ডোতে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:97
+#: data/50-vater-navigation.xml:97
 msgid "Switch system controls directly"
 msgstr "সিস্টেম কন্ট্রোলগুলি সরাসরি স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:102
+#: data/50-vater-navigation.xml:102
 msgid "Switch directly to previous system control"
 msgstr "সরাসরি পূর্ববর্তী সিস্টেম কন্ট্রোলে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:105
+#: data/50-vater-navigation.xml:105
 msgid "Hide all normal windows"
 msgstr "সমস্ত সাধারণ উইন্ডো লুকান"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-vater-navigation.xml:108
 msgid "Switch to workspace 1"
 msgstr "কর্মক্ষেত্র ১ এ স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-vater-navigation.xml:111
 msgid "Switch to workspace 2"
 msgstr "কর্মক্ষেত্র ২ এ স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-vater-navigation.xml:114
 msgid "Switch to workspace 3"
 msgstr "কর্মক্ষেত্র ৩ এ স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-vater-navigation.xml:117
 msgid "Switch to workspace 4"
 msgstr "কর্মক্ষেত্র ৪ এ স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-vater-navigation.xml:120
 msgid "Switch to last workspace"
 msgstr "শেষ কর্মক্ষেত্রে স্যুইচ করুন"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-vater-navigation.xml:123
 msgid "Move to workspace above"
 msgstr "উপরের দিকের কর্মক্ষেত্রে সরান"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-vater-navigation.xml:126
 msgid "Move to workspace below"
 msgstr "নীচের দিকের কর্মক্ষেত্রে সরান"
 
-#: data/50-mutter-system.xml:6 data/50-mutter-wayland.xml:6
+#: data/50-vater-system.xml:6 data/50-vater-wayland.xml:6
 msgid "System"
 msgstr "সিস্টেম"
 
-#: data/50-mutter-system.xml:8
+#: data/50-vater-system.xml:8
 msgid "Show the run command prompt"
 msgstr "চালনা কম্যান্ড প্রমপ্ট দেখান"
 
-#: data/50-mutter-system.xml:10
+#: data/50-vater-system.xml:10
 msgid "Show the activities overview"
 msgstr "ক্রিয়াকলাপের পূর্বরূপ দেখান"
 
-#: data/50-mutter-wayland.xml:8
+#: data/50-vater-wayland.xml:8
 msgid "Restore the keyboard shortcuts"
 msgstr "কীবোর্ড শর্টকাটগুলি পুনরুদ্ধার করুন"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-vater-windows.xml:6
 msgid "Windows"
 msgstr "উইন্ডোগুলি"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-vater-windows.xml:8
 msgid "Activate the window menu"
 msgstr "উইন্ডো মেনু সক্রিয় করুন"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-vater-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "সম্পূর্ণ পর্দা মোড টগল করুন"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-vater-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "বড় করার অবস্থা টগল করুন"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-vater-windows.xml:14
 msgid "Maximize window"
 msgstr "উইন্ডো বড় করুন"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-vater-windows.xml:16
 msgid "Restore window"
 msgstr "উইন্ডো পূর্বাবস্থা করুন"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-vater-windows.xml:18
 msgid "Close window"
 msgstr "উইন্ডো বন্ধ করুন"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-vater-windows.xml:20
 msgid "Hide window"
 msgstr "উইন্ডো লুকান"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-vater-windows.xml:22
 msgid "Move window"
 msgstr "উইন্ডো সরান"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-vater-windows.xml:24
 msgid "Resize window"
 msgstr "উইন্ডোর মাপ পরিবর্তন করুন"
 
-#: data/50-mutter-windows.xml:27
+#: data/50-vater-windows.xml:27
 msgid "Toggle window on all workspaces or one"
 msgstr "সমস্ত কর্মক্ষেত্রে বা একটিতে উইন্ডো টগল করুন"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-vater-windows.xml:29
 msgid "Raise window if covered, otherwise lower it"
 msgstr "ঢাকা থাকলে উইন্ডো ওঠান অথবা এটিকে নামান"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-vater-windows.xml:31
 msgid "Raise window above other windows"
 msgstr "উইন্ডো অন্যান্য উইন্ডোর উপরে ওঠান"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-vater-windows.xml:33
 msgid "Lower window below other windows"
 msgstr "উইন্ডো অন্যান্য উইন্ডোর নীচে নামান"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-vater-windows.xml:35
 msgid "Maximize window vertically"
 msgstr "উইন্ডো উল্লম্বভাবে বড় করুন"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-vater-windows.xml:37
 msgid "Maximize window horizontally"
 msgstr "উইন্ডো অনুভূমিক ভাবে বড় করুন"
 
-#: data/50-mutter-windows.xml:41
+#: data/50-vater-windows.xml:41
 msgid "View split on left"
 msgstr "বাম বিভক্ত দেখুন"
 
-#: data/50-mutter-windows.xml:45
+#: data/50-vater-windows.xml:45
 msgid "View split on right"
 msgstr "ডান বিভক্ত দেখুন"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/vater.desktop.in:4
+msgid "Vater"
+msgstr "Vater"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "বর্ধিত উইন্ডো পরিচালনা কাজের জন্য ব্যবহার করার সংশোধক"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:8
 #| msgid ""
 #| "This key will initiate the \"overlay\", which is a combination window "
 #| "overview and application launching system. The default is intended to be "
@@ -276,11 +276,11 @@ msgstr ""
 "সংমিশ্রণ। ডিফল্টটি পিসি হার্ডওয়্যারটিতে \"উইন্ডোজ কী\" হিসাবে চিহ্নিত। এটি "
 "প্রত্যাশিত যে এই বাঁধাই হয় ডিফল্ট বা খালি স্ট্রিংয়ে সেট করা হয়।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "মোডেল ডায়ালগ সংযুক্ত করুন"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -289,11 +289,11 @@ msgstr ""
 "সত্য হলে, স্বতন্ত্র টাইটেলবার থাকার পরিবর্তে, মোডেল ডায়ালগ পেরেন্ট উইন্ডোর টাইটেল "
 "বারে সংযুক্ত অবস্থায় আসে এবং পেরেন্ট উইন্ডোর সাথে একসাথে অবস্থান পরিবর্তন করে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "উইন্ডো স্ক্রীন কিনারায় আনার সময়ে কিনারা টাইল পরিবৃত করা সক্ষম করুন"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -303,11 +303,11 @@ msgstr ""
 "এবং উপলব্ধ অঞ্চলের অর্ধেক আবৃত করতে তাদের মাপ অনুভূমিক ভাবে পরিবর্তন করে। উইন্ডো "
 "উপরের স্ক্রীন কিনারায় ছাড়া হলে তা তাদের সম্পূর্ণ ভাবে বড় করে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "কর্মক্ষেত্রগুলি ডায়নামিক ভাবে ব্যবস্থাপনা করা হয়"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:41
 #| msgid ""
 #| "Determines whether workspaces are managed dynamically or whether there's "
 #| "a static number of workspaces (determined by the num-workspaces key in "
@@ -321,11 +321,11 @@ msgstr ""
 "করে (এখানে num-workspaces কী দ্বারা নির্ধারিত হয় io.github.scarecrow_de.desktop.wm."
 "preferences)।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "কর্মক্ষেত্রগুলি শুধুমাত্র প্রাথমিকে"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -333,11 +333,11 @@ msgstr ""
 "কর্মক্ষেত্র একটি থেকে অন্যটিতে পাল্টানো সমস্ত মনিটরের উইন্ডোর জন্য নাকি শুধুমাত্র "
 "প্রাথমিক মনিটরের উইন্ডোর জন্য ঘটবে তা নির্ধারণ করে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "কোনো ট্যাব পপ-আপ নেই"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -345,11 +345,11 @@ msgstr ""
 "উইন্ডো আবর্তনের ক্ষেত্রে পপ-আপ এবং ফ্রেম হাইলাইট ব্যবহার করা হবে কিনা তা নির্ধারণ "
 "করে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "ফোকাসে বিলম্ব পয়েন্টার অবস্থান পরিবর্তন করা পর্যন্ত পরিবর্তিত হয়"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:69
 #| msgid ""
 #| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 #| "the focus will not be changed immediately when entering a window, but "
@@ -363,11 +363,11 @@ msgstr ""
 "উইন্ডোতে প্রবেশের সাথে সাথে ফোকাসটি তত্ক্ষণাত পরিবর্তন করা হবে না, তবে কেবলমাত্র "
 "পয়েন্টারটি চলন্ত থামবে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "টানা যায় এমন কিনারার প্রস্থ"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:80
 #| msgid ""
 #| "The amount of total draggable borders. If the theme's visible borders are "
 #| "not enough, invisible borders will be added to meet this value."
@@ -378,11 +378,11 @@ msgstr ""
 "মোট টেনে নিয়ে যাওয়ার সীমানার পরিমাণ। থিমের দৃশ্যমান সীমানা যদি পর্যাপ্ত না হয় "
 "তবে এই মানটি পূরণ করতে অদৃশ্য সীমানা যুক্ত করা হবে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "প্রায় মনিটরের মাপের উইন্ডো স্বয়ংক্রিয় ভাবে বড় করুন"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -390,78 +390,78 @@ msgstr ""
 "সক্রিয় করা হলে, প্রাথমিক ভাবে মনিটরের সমান মাপের নতুন উইন্ডোগুলি স্বয়ংক্রিয় ভাবে বড় "
 "হয়।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "কেন্দ্রে নতুন উইন্ডোগুলি রাখুন"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr "সত্য হলে, নতুন উইন্ডোগুলি সর্বদা মনিটরের সক্রিয় স্ক্রিনের কেন্দ্রে বসবে।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "উইন্ডো ট্যাব পপ-আপ থেকে নির্বাচন করুন"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "ট্যাব পপ-আপ বাতিল করুন"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:175
 #| msgid "Switch applications"
 msgid "Switch monitor configurations"
 msgstr "মনিটর কনফিগারেশন স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:6
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "VT ১ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:10
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "VT 2 ২ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:14
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "VT 3 ৩ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:18
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "VT 4 ৪ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:22
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "VT ৫ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:26
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "VT ৬ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "VT ৭ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:34
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:34
 #| msgid "Switch to VT 1"
 msgid "Switch to VT 8"
 msgstr "VT ১ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:38
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:38
 #| msgid "Switch to VT 1"
 msgid "Switch to VT 9"
 msgstr "VT ১ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:42
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:42
 #| msgid "Switch to VT 1"
 msgid "Switch to VT 10"
 msgstr "VT ১০ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:46
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:46
 #| msgid "Switch to VT 1"
 msgid "Switch to VT 11"
 msgstr "VT ১১ এ স্যুইচ করুন"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:50
 #| msgid "Switch to VT 1"
 msgid "Switch to VT 12"
 msgstr "VT ১২ এ স্যুইচ করুন"
@@ -607,34 +607,34 @@ msgstr "বলপূর্বক বন্ধ করুন (_F)"
 msgid "_Wait"
 msgstr "অপেক্ষা করা হবে (_W)"
 
-#: src/core/mutter.c:38
+#: src/core/vater.c:38
 #, c-format
 #| msgid ""
-#| "mutter %s\n"
+#| "vater %s\n"
 #| "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 #| "This is free software; see the source for copying conditions.\n"
 #| "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 #| "PARTICULAR PURPOSE.\n"
 msgid ""
-"mutter %s\n"
+"vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"vater %s\n"
 "স্বত্বাধিকার (C) ২০০১-%d হ্যাভক পেনিংটন, Red Hat, Inc., ও অন্যান্যদের\n"
 "এটি একটি মুক্ত সফ্টওয়্যার; পুনব্যবহারের নিয়মাবলীর জন্য সোর্সের মধ্যে উপলব্ধ নথিপত্র "
 "দেখুন।\n"
 "এর কোনও ওয়্যারেন্টি নেই; এমনকি ব্যক্তিগত লক্ষ্য বা যোগ্যতার জন্য উপযুক্ত নয়।\n"
 
-#: src/core/mutter.c:52
+#: src/core/vater.c:52
 msgid "Print version"
 msgstr "প্রিন্ট সংস্করণ"
 
-#: src/core/mutter.c:58
-msgid "Mutter plugin to use"
-msgstr "Mutter-এর ব্যবহারযোগ্য প্লাগইন"
+#: src/core/vater.c:58
+msgid "Vater plugin to use"
+msgstr "Vater-এর ব্যবহারযোগ্য প্লাগইন"
 
 #: src/core/prefs.c:1911
 #, c-format
@@ -642,8 +642,8 @@ msgid "Workspace %d"
 msgstr "কর্মক্ষেত্র %d"
 
 #: src/core/util.c:119
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "ভার্বোস মোডের সমর্থন অন্তর্ভুক্ত না করে Mutter কম্পাইল করা হয়েছে\n"
+msgid "Vater was compiled without support for verbose mode\n"
+msgstr "ভার্বোস মোডের সমর্থন অন্তর্ভুক্ত না করে Vater কম্পাইল করা হয়েছে\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:568
 #, c-format
@@ -1261,8 +1261,8 @@ msgstr "%s (%s'র উপর)"
 #~ msgid "Failed to parse saved session file: %s\n"
 #~ msgstr "সংরক্ষিত সেশান ফাইল পার্স করতে ব্যর্থ: %s\n"
 
-#~ msgid "<mutter_session> attribute seen but we already have the session ID"
-#~ msgstr "<mutter_session> বৈশিষ্ট্য প্রদর্শিত কিন্তু সেশান ID বর্তমানে উপস্থিত রয়েছে"
+#~ msgid "<vater_session> attribute seen but we already have the session ID"
+#~ msgstr "<vater_session> বৈশিষ্ট্য প্রদর্শিত কিন্তু সেশান ID বর্তমানে উপস্থিত রয়েছে"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "অজানা বৈশিষ্ট্য %s, <%s> স্বত্বায় চিহ্নিত হয়েছে"

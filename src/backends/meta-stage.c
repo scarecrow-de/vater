@@ -26,7 +26,7 @@
 
 #include "backends/meta-backend-private.h"
 #include "backends/meta-cursor-tracker-private.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "meta/meta-backend.h"
 #include "meta/meta-monitor-manager.h"
 #include "meta/util.h"

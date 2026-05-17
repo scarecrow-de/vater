@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="io.github.scarecrow_de.mutter" path="/io/github/scarecrow_de/mutter/"
+  <schema id="io.github.scarecrow_de.vater" path="/io/github/scarecrow_de/vater/"
           gettext-domain="@GETTEXT_DOMAIN@">
 
     <key name="overlay-key" type="s">
@@ -114,13 +114,13 @@
 
         Currently possible keywords:
 
-        • “scale-monitor-framebuffer” — makes mutter default to layout logical
+        • “scale-monitor-framebuffer” — makes vater default to layout logical
                                         monitors in a logical pixel coordinate
                                         space, while scaling monitor
                                         framebuffers instead of window content,
                                         to manage HiDPI monitors. Does not
                                         require a restart.
-        • “rt-scheduler”              — makes mutter request a low priority
+        • “rt-scheduler”              — makes vater request a low priority
                                         real-time scheduling. The executable
                                         or user must have CAP_SYS_NICE.
                                         Requires a restart.
@@ -147,10 +147,10 @@
       </description>
     </key>
 
-    <child name="keybindings" schema="io.github.scarecrow_de.mutter.keybindings"/>
+    <child name="keybindings" schema="io.github.scarecrow_de.vater.keybindings"/>
 
   </schema>
-  <schema id="io.github.scarecrow_de.mutter.keybindings" path="/io/github/scarecrow_de/mutter/keybindings/">
+  <schema id="io.github.scarecrow_de.vater.keybindings" path="/io/github/scarecrow_de/vater/keybindings/">
 
     <key name="toggle-tiled-left" type="as">
       <default><![CDATA[['<Super>Left']]]></default>

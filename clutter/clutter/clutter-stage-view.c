@@ -26,7 +26,7 @@
 #include "clutter/clutter-damage-history.h"
 #include "clutter/clutter-frame-clock.h"
 #include "clutter/clutter-private.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "clutter/clutter-stage-private.h"
 #include "cogl/cogl.h"
 
@@ -415,7 +415,7 @@ init_shadowfb (ClutterStageView *view)
   height = cogl_framebuffer_get_height (priv->framebuffer);
   cogl_context = cogl_framebuffer_get_context (priv->framebuffer);
 
-  if (g_strcmp0 (g_getenv ("MUTTER_DEBUG_ENABLE_DOUBLE_SHADOWFB"), "1") == 0)
+  if (g_strcmp0 (g_getenv ("VATER_DEBUG_ENABLE_DOUBLE_SHADOWFB"), "1") == 0)
     {
       if (init_dma_buf_shadowfbs (view, cogl_context, width, height, &error))
         {

@@ -54,7 +54,7 @@ test_env.set('G_TEST_BUILDDIR', meson.current_build_dir())
 test_env.set('G_ENABLE_DIAGNOSTIC', '0')
 test_env.set('CLUTTER_ENABLE_DIAGNOSTIC', '0')
 test_env.set('CLUTTER_SCALE', '1')
-test_env.set('MUTTER_TEST_PLUGIN_PATH', '@0@'.format(default_plugin.full_path()))
+test_env.set('VATER_TEST_PLUGIN_PATH', '@0@'.format(default_plugin.full_path()))
 
 foreach test : clutter_conform_tests
   test_executable = executable('@0@'.format(test),
@@ -67,8 +67,8 @@ foreach test : clutter_conform_tests
     link_args: clutter_tests_conform_link_args,
     dependencies: [
       clutter_deps,
-      libmutter_clutter_dep,
-      libmutter_dep
+      libvater_clutter_dep,
+      libvater_dep
     ],
     install: false,
   )

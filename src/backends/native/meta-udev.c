@@ -92,7 +92,7 @@ meta_is_udev_device_requires_modifiers (GUdevDevice *device)
   if (!tags)
     return FALSE;
 
-  return g_strv_contains (tags, "mutter-device-requires-kms-modifiers");
+  return g_strv_contains (tags, "vater-device-requires-kms-modifiers");
 }
 
 gboolean
@@ -104,7 +104,7 @@ meta_is_udev_device_preferred_primary (GUdevDevice *device)
   if (!tags)
     return FALSE;
 
-  return g_strv_contains (tags, "mutter-device-preferred-primary");
+  return g_strv_contains (tags, "vater-device-preferred-primary");
 }
 
 gboolean

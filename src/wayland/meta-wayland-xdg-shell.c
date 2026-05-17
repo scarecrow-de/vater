@@ -1869,7 +1869,7 @@ xdg_surface_constructor_get_popup (struct wl_client   *client,
     {
       wl_resource_post_error (xdg_wm_base_resource,
                               XDG_WM_BASE_ERROR_INVALID_POPUP_PARENT,
-                              "Parent surface is null but Mutter does not yet "
+                              "Parent surface is null but Vater does not yet "
                               "support specifying parent surfaces via other "
                               "protocols");
       return;

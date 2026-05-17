@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=mutter&keywords=I18N+L10N&component=general\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=vater&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-02 10:05+0000\n"
 "PO-Revision-Date: 2017-11-26 11:03+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
@@ -19,269 +19,269 @@ msgstr ""
 "X-Generator: Poedit 2.0.4\n"
 "Plural-Forms: nplurals=2; plural=n !=1;\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-vater-navigation.xml:6
 msgid "Navigation"
 msgstr "नेभिगेशन"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-vater-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र १ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-vater-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र २ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-vater-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र ३ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-vater-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र ४ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-vater-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "सञ्झ्याललाई अन्तिम कार्यक्षेत्र मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-vater-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र बायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-vater-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र दायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-vater-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र माथि सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-vater-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र तल सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-vater-navigation.xml:36
 msgid "Move window one monitor to the left"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र बायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-vater-navigation.xml:39
 msgid "Move window one monitor to the right"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र दायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:42
+#: data/50-vater-navigation.xml:42
 msgid "Move window one monitor up"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र माथि सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:45
+#: data/50-vater-navigation.xml:45
 msgid "Move window one monitor down"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र तल सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:49
+#: data/50-vater-navigation.xml:49
 msgid "Switch applications"
 msgstr "अनुप्रयोगहरू स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:54
+#: data/50-vater-navigation.xml:54
 msgid "Switch to previous application"
 msgstr "अघिल्लो अनुप्रयोगमा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:58
+#: data/50-vater-navigation.xml:58
 msgid "Switch windows"
 msgstr "सञ्झ्यालहरू बीचमा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:63
+#: data/50-vater-navigation.xml:63
 #, fuzzy
 msgid "Switch to previous window"
 msgstr "सबै भ्यूपोर्टमा भएकामध्ये खुलिरहेको अघिल्लो विन्डोमा जान्छ ।"
 
-#: data/50-mutter-navigation.xml:67
+#: data/50-vater-navigation.xml:67
 msgid "Switch windows of an application"
 msgstr "अनुप्रयोग सञ्झ्यालहरू बीचमा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:72
+#: data/50-vater-navigation.xml:72
 msgid "Switch to previous window of an application"
 msgstr "अघिल्लो अनुप्रयोग सञ्झ्यालहरू बीचमा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:76
+#: data/50-vater-navigation.xml:76
 msgid "Switch system controls"
 msgstr "प्रणाली नियन्त्रण स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:81
+#: data/50-vater-navigation.xml:81
 msgid "Switch to previous system control"
 msgstr "अघिल्लो प्रणाली नियन्त्रणमा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:85
+#: data/50-vater-navigation.xml:85
 msgid "Switch windows directly"
 msgstr "सञ्झ्याल सिधा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-vater-navigation.xml:90
 msgid "Switch directly to previous window"
 msgstr "अघिल्लो सञ्झ्याल सिधा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:94
+#: data/50-vater-navigation.xml:94
 #, fuzzy
 #| msgid "Move between windows of an application immediately"
 msgid "Switch windows of an app directly"
 msgstr "सञ्झ्यालहरू बीचमा स्विच गर्ने उपकरण"
 
-#: data/50-mutter-navigation.xml:99
+#: data/50-vater-navigation.xml:99
 #, fuzzy
 msgid "Switch directly to previous window of an app"
 msgstr "अघिल्लो कागजात सञ्झ्याललाई स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:103
+#: data/50-vater-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr "प्रणाली नियन्त्रण सिधा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-vater-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr "अघिल्लो प्रणाली नियन्त्रणमा सिधा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-vater-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "सामान्य सन्ज्यालहरु सबै लुकाउनुहोस्"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-vater-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "कार्यक्षेत्र १ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-vater-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "कार्यक्षेत्र २ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-vater-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "कार्यक्षेत्र ३ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-vater-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "कार्यक्षेत्र ४ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-vater-navigation.xml:126
 msgid "Switch to last workspace"
 msgstr "अन्तिम कार्यक्षेत्र मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:129
+#: data/50-vater-navigation.xml:129
 msgid "Move to workspace left"
 msgstr "कार्यक्षेत्र बायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:132
+#: data/50-vater-navigation.xml:132
 msgid "Move to workspace right"
 msgstr "कार्यक्षेत्र दायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:135
+#: data/50-vater-navigation.xml:135
 msgid "Move to workspace above"
 msgstr "माथिल्लो  कार्यक्षेत्र सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:138
+#: data/50-vater-navigation.xml:138
 msgid "Move to workspace below"
 msgstr "तल्लो  कार्यक्षेत्र मा सार्नुहोस्"
 
-#: data/50-mutter-system.xml:6
+#: data/50-vater-system.xml:6
 msgid "System"
 msgstr "प्रणाली"
 
-#: data/50-mutter-system.xml:8
+#: data/50-vater-system.xml:8
 #, fuzzy
 msgid "Show the run command prompt"
 msgstr "टर्मिनलमा आदेश चलाउनुहोस् ।"
 
-#: data/50-mutter-system.xml:10
+#: data/50-vater-system.xml:10
 #, fuzzy
 msgid "Show the activities overview"
 msgstr "अधिलेखन हेर्नुहोस्"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-vater-windows.xml:6
 msgid "Windows"
 msgstr "विन्डोहरू"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-vater-windows.xml:8
 msgid "Activate the window menu"
 msgstr "संज्यालको मेनु सक्रिय गर्ने"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-vater-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "पूरा पर्दा मोड टगल गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-vater-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "बढाइएको स्थितिलाई टगल गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-vater-windows.xml:14
 msgid "Maximize window"
 msgstr "सञ्झ्याल बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-vater-windows.xml:16
 msgid "Restore window"
 msgstr "सञ्झ्याल पूर्वावस्थामा ल्याउनुहोस्"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-vater-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "छायाँ पारिएको वस्तुस्थिति टगल गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-vater-windows.xml:20
 msgid "Close window"
 msgstr "सञ्झ्याल बन्द गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-vater-windows.xml:22
 msgid "Hide window"
 msgstr "सञ्झ्याल लुकाउनुहोस्"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-vater-windows.xml:24
 msgid "Move window"
 msgstr "सञ्झ्याल सार्नुहोस्"
 
-#: data/50-mutter-windows.xml:26
+#: data/50-vater-windows.xml:26
 msgid "Resize window"
 msgstr "सञ्झ्याललाई रिसाइज गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-vater-windows.xml:29
 #, fuzzy
 #| msgid "Toggle window on all workspaces"
 msgid "Toggle window on all workspaces or one"
 msgstr "सञ्झ्याललाई सबै कार्यस्थानमा देखिने बनाउनुहोस्"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-vater-windows.xml:31
 #, fuzzy
 #| msgid "Raise obscured window, otherwise lower"
 msgid "Raise window if covered, otherwise lower it"
 msgstr "अदृश्य सञ्झ्याल बढाउनुहोस्, अन्यथा घटाउनुहोस्"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-vater-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "सञ्झ्याललाई अन्य सञ्झ्याल माथि बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-vater-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "अन्य सञ्झ्याल तल सञ्झ्याल झार्नुहोस्"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-vater-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "ठाडो रूपमा सञ्झ्याल बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:39
+#: data/50-vater-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "तेर्सो रूपमा सञ्झ्याल बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:43
+#: data/50-vater-windows.xml:43
 #, fuzzy
 msgid "View split on left"
 msgstr "स्प्लिट"
 
-#: data/50-mutter-windows.xml:47
+#: data/50-vater-windows.xml:47
 #, fuzzy
 msgid "View split on right"
 msgstr "स्प्लिट"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
+#: data/vater.desktop.in:4
+msgid "Vater"
 msgstr "मटर"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:7
 #, fuzzy
 #| msgid "Modifier to use for modified window click actions"
 msgid "Modifier to use for extended window management operations"
 msgstr "परिमार्जित सञ्झ्याल क्लिक कार्य परिमार्जन गर्नका लागि प्रयोग गरिने परिमार्जक"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview and application launching system. The "
 "default is intended to be the “Windows key” on PC hardware. It’s expected that this binding either the default or set to "
@@ -290,23 +290,23 @@ msgstr ""
 "यो कुञ्जीले \"ओभरले\" को प्रारम्भ गर्नेछ, जुन एक संयोजन सन्झ्याल अवलोकन र अनुप्रयोग सुरूवात प्रणाली हो। पूर्वनिर्धारित पीसी हार्डवेयरमा "
 "\"विन्डोज कुञ्जी\" हुनुको उद्देश्य हो। यो अपेक्षा गरिएको छ कि यो बाध्यकारी वा पूर्वनिर्धारित वा खाली स्ट्रिङमा सेट गर्नुहोस्।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:20
 #, fuzzy
 msgid "Attach modal dialogs"
 msgstr "संवादहरू"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear attached to the titlebar of the parent window "
 "and are moved together with the parent window."
 msgstr ""
 "जब सँधै, स्वतन्त्र शीर्षकपट्टीको सट्टामा, मोडल संवादहरू अभिभावक सञ्झ्यालको शीर्षकपट्टीमा संलग्न हुन्छन् र अभिभावकको सञ्झ्यालमा सँगै सारिन्छन्।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "स्क्रिन किनाराहरूमा सञ्झ्याल छोड्दा किनारा टायल सक्षम गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them vertically and resizes them horizontally to cover "
 "half of the available area. Dropping windows on the top screen edge maximizes them completely."
@@ -314,12 +314,12 @@ msgstr ""
 "यदि सक्षम भएमा, ठाडो स्क्रिन किनाराहरूमा विन्डो छोडेर तिनीहरू ठाडो रूपमा बढाउँछ र तिनीहरूलाई क्षैतिज रूपमा उपलब्ध क्षेत्रको आधा कवर गर्न "
 "रिसाइज गर्दछ। शीर्ष स्क्रिन किनारामा विन्डो छोडेर उनीहरूलाई पूर्ण रूपमा अधिकतम गर्दछ।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:40
 #, fuzzy
 msgid "Workspaces are managed dynamically"
 msgstr "यो यन्त्र रङ व्यवस्थित छैन।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a static number of workspaces (determined by "
 "the num-workspaces key in io.github.scarecrow_de.desktop.wm.preferences)."
@@ -327,31 +327,31 @@ msgstr ""
 "निर्धारण गर्दछ कि कार्यस्थानहरू गतिशील रूपमा व्यवस्थित छन् वा चाहेको स्थिर कार्य सङ्ख्या (यदि सङ्ख्या-कार्यक्षेत्र कुञ्जीद्वारा io.github.scarecrow_de."
 "desktop.wm.preferences मा निर्धारण गरिएको हो)।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:50
 #, fuzzy
 msgid "Workspaces only on primary"
 msgstr "प्राइमेरी"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all monitors or only for windows on the primary "
 "monitor."
 msgstr "सबै मनिटरहरूमा सञ्झ्यालका लागि कार्यस्थान स्विच गर्नु पर्दछ वा केवल प्राथमिक मनिटरमा सञ्झ्याल को लागि हुनुपर्छ।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:59
 #, fuzzy
 msgid "No tab popup"
 msgstr "पपअप मेनु"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:60
 msgid "Determines whether the use of popup and highlight frame should be disabled for window cycling."
 msgstr "पिकअप र हाइलाइट फ्रेमको प्रयोग सञ्झ्याल चलाउन असक्षम हुनु पर्दछ।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:69
 #, fuzzy
 #| msgid ""
 #| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then the focused window will be automatically "
@@ -365,120 +365,120 @@ msgstr ""
 "विलम्ब पछि स्वचालित रूपमा बढ्दछ । यसलाई बढाउनु न सञ्झ्यालमा क्लिक गर्नुसँग सम्बन्धित छैन, त्यस्तै तान्ने र छोड्ने गर्दा सञ्झ्यालमा प्रविष्टि गर्नुसँग "
 "पनि सम्बन्धित छैन ।"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:79
 #, fuzzy
 msgid "Draggable border width"
 msgstr "सीमाना चौडाई"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are not enough, invisible borders will be added to "
 "meet this value."
 msgstr ""
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:90
 msgid "If enabled, new windows that are initially the size of the monitor automatically get maximized."
 msgstr ""
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:98
 #, fuzzy
 msgid "Place new windows in the center"
 msgstr "नयाँ कल राख्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:99
 msgid "When true, the new windows will always be put in the center of the active screen of the monitor."
 msgstr ""
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:107
 #, fuzzy
 msgid "Enable experimental features"
 msgstr "माउस पहुँच सुविधाहरू सक्षम  पार्न सकिएन"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. Whether the feature requires restarting the "
 "compositor depends on the given feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future proof. Currently possible keywords: • “monitor-"
 "config-manager” — use the new monitor configuration system, aimed to replace the old one. This enables a higher level "
 "configuration API to be used by configuration applications, as well as the ability to configure per logical monitor "
-"scale. • “scale-monitor-framebuffer” — makes mutter default to layout logical monitors in a logical pixel coordinate "
+"scale. • “scale-monitor-framebuffer” — makes vater default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to manage HiDPI monitors. Does not require a "
 "restart. Also enabling “monitor-config-manager” is required for this feature to be enabled."
 msgstr ""
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:151
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:151
 #, fuzzy
 #| msgid "Move between windows with popup"
 msgid "Select window from tab popup"
 msgstr "पपअप भएको सञ्झ्याल बीचमा सार्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:156
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:156
 msgid "Cancel tab popup"
 msgstr "पपउप रद्द गर्ने"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:161
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:161
 #, fuzzy
 msgid "Switch monitor configurations"
 msgstr "मनिटरको कन्फिगरेसन बदल्न सकिएन"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:166
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:166
 #, fuzzy
 msgid "Rotates the built-in monitor configuration"
 msgstr "मनिटरको कन्फिगरेसन बदल्न सकिएन"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:6
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "कार्यक्षेत्र १ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:10
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "कार्यक्षेत्र २ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:14
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "कार्यक्षेत्र ३ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:18
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "कार्यक्षेत्र ४ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:22
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "कार्यक्षेत्र ५ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:26
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "कार्यक्षेत्र ६ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "कार्यक्षेत्र ७ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:34
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "कार्यक्षेत्र ८ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:38
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "कार्यक्षेत्र ९ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:42
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "कार्यक्षेत्र १० मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:46
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "कार्यक्षेत्र ११ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "कार्यक्षेत्र १२ मा स्विच गर्नुहोस्"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:54
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "सर्टकट सक्षम गर्नुहोस्"
 
@@ -605,7 +605,7 @@ msgstr "अन्त्य गर्न दवाब दिनुहोस्"
 msgid "_Wait"
 msgstr "प्रतिक्षा गर्नुहोस्"
 
-#: src/core/mutter.c:39
+#: src/core/vater.c:39
 #, fuzzy, c-format
 #| msgid ""
 #| "metacity %s\n"
@@ -613,7 +613,7 @@ msgstr "प्रतिक्षा गर्नुहोस्"
 #| "This is free software; see the source for copying conditions.\n"
 #| "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgid ""
-"mutter %s\n"
+"vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
@@ -623,13 +623,13 @@ msgstr ""
 "यो नि:शुल्क सफ्टवेयर हो; प्रतिलिपि सर्तका लागि स्रोत हेर्नुहोस् ।\n"
 "वारेन्टी छैन; ब्यापारीकरण गरिएको छैन वा निश्चित उद्देश्यको लागि मिलाइएको पनि छैन ।\n"
 
-#: src/core/mutter.c:53
+#: src/core/vater.c:53
 msgid "Print version"
 msgstr "मुद्रण संस्करण"
 
-#: src/core/mutter.c:59
+#: src/core/vater.c:59
 #, fuzzy
-msgid "Mutter plugin to use"
+msgid "Vater plugin to use"
 msgstr "प्लगइन निश्चित गर्नका लागि प्रयोग गरिने प्लगइन प्रवन्धक"
 
 #: src/core/prefs.c:1997
@@ -655,7 +655,7 @@ msgstr "पर्दा %d को प्रदर्शन '%s' अमान्�
 #: src/core/util.c:120
 #, fuzzy
 #| msgid "Metacity was compiled without support for verbose mode\n"
-msgid "Mutter was compiled without support for verbose mode\n"
+msgid "Vater was compiled without support for verbose mode\n"
 msgstr "भर्बोज मोडलाई सहयोग बिनानै मेटासिटि सङ्ग्रह गरियो\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563

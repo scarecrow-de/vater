@@ -340,7 +340,7 @@ META_EXPORT
 gboolean    meta_window_is_attached_dialog (MetaWindow *window);
 
 META_EXPORT
-const char *meta_window_get_mutter_hints (MetaWindow *window);
+const char *meta_window_get_vater_hints (MetaWindow *window);
 
 META_EXPORT
 MetaFrameType meta_window_get_frame_type (MetaWindow *window);

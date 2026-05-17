@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter utilities */
+/* Vater utilities */
 
 /*
  * Copyright (C) 2001 Havoc Pennington

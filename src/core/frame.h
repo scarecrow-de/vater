@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X window decorations */
+/* Vater X window decorations */
 
 /*
  * Copyright (C) 2001 Havoc Pennington

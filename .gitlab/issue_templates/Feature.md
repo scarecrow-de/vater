@@ -6,14 +6,14 @@ first to ensure that you create a clear and specific issue.
 ### Feature summary
 
 <!-- 
-Describe what you would like to be able to do with Mutter
+Describe what you would like to be able to do with Vater
 that you currently cannot do.
 -->
 
 ### How would you like it to work
 
 <!-- 
-If you can think of a way Mutter might be able to do this,
+If you can think of a way Vater might be able to do this,
 let us know here.
 -->
 

@@ -261,7 +261,7 @@ meta_wayland_compositor_handle_event (MetaWaylandCompositor *compositor,
  * @key_vector_len: length of @key_vector
  * @offset: the key for the first evdev keycode is found at this offset in @key_vector
  *
- * This function is used to resynchronize the key state that Mutter
+ * This function is used to resynchronize the key state that Vater
  * is tracking with the actual keyboard state. This is useful, for example,
  * to handle changes in key state when a nested compositor doesn't
  * have focus. We need to fix up the XKB modifier tracking and deliver
@@ -324,7 +324,7 @@ set_gnome_env (const char *name,
 
       remote_error = g_dbus_error_get_remote_error (error);
       if (g_strcmp0 (remote_error, "io.github.scarecrow_de.SessionManager.NotInInitialization") != 0)
-        meta_warning ("Failed to set environment variable %s for gnome-session: %s\n", name, error->message);
+        meta_warning ("Failed to set environment variable %s for scarecrow-session: %s\n", name, error->message);
 
       g_free (remote_error);
       g_error_free (error);

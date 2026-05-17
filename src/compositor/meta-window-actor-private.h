@@ -7,7 +7,7 @@
 
 #include "compositor/meta-plugin-manager.h"
 #include "compositor/meta-surface-actor.h"
-#include "meta/compositor-mutter.h"
+#include "meta/compositor-vater.h"
 
 struct _MetaWindowActorClass
 {

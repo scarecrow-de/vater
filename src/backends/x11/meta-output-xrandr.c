@@ -79,7 +79,7 @@ output_set_presentation_xrandr (MetaOutput *output,
   Atom atom;
   int value = presentation;
 
-  atom = XInternAtom (xdisplay, "_MUTTER_PRESENTATION_OUTPUT", False);
+  atom = XInternAtom (xdisplay, "_VATER_PRESENTATION_OUTPUT", False);
 
   xcb_randr_change_output_property (XGetXCBConnection (xdisplay),
                                     (XID) meta_output_get_id (output),
@@ -278,7 +278,7 @@ output_get_boolean_property (MetaOutput *output,
 static gboolean
 output_get_presentation_xrandr (MetaOutput *output)
 {
-  return output_get_boolean_property (output, "_MUTTER_PRESENTATION_OUTPUT");
+  return output_get_boolean_property (output, "_VATER_PRESENTATION_OUTPUT");
 }
 
 static gboolean

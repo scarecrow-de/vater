@@ -30,7 +30,7 @@
 #include "backends/meta-screen-cast-session.h"
 #include "backends/meta-stage-private.h"
 #include "clutter/clutter.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "core/boxes-private.h"
 
 struct _MetaScreenCastAreaStreamSrc

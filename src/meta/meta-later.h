@@ -24,9 +24,9 @@
  * MetaLaterType:
  * @META_LATER_RESIZE: call in a resize processing phase that is done
  *   before GTK+ repainting (including window borders) is done.
- * @META_LATER_CALC_SHOWING: used by Mutter to compute which windows should be mapped
- * @META_LATER_CHECK_FULLSCREEN: used by Mutter to see if there's a fullscreen window
- * @META_LATER_SYNC_STACK: used by Mutter to send it's idea of the stacking order to the server
+ * @META_LATER_CALC_SHOWING: used by Vater to compute which windows should be mapped
+ * @META_LATER_CHECK_FULLSCREEN: used by Vater to see if there's a fullscreen window
+ * @META_LATER_SYNC_STACK: used by Vater to send it's idea of the stacking order to the server
  * @META_LATER_BEFORE_REDRAW: call before the stage is redrawn
  * @META_LATER_IDLE: call at a very low priority (can be blocked
  *    by running animations or redrawing applications)

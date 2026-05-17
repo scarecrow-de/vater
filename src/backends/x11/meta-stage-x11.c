@@ -32,7 +32,7 @@
 #include "backends/x11/meta-seat-x11.h"
 #include "backends/x11/meta-stage-x11.h"
 #include "backends/x11/nested/meta-stage-x11-nested.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "clutter/x11/clutter-x11.h"
 #include "clutter/x11/clutter-backend-x11.h"
 #include "cogl/cogl.h"

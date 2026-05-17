@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  *
- * Adapted from gnome-session/gnome-session/gs-idle-monitor.c and
+ * Adapted from scarecrow-session/scarecrow-session/gs-idle-monitor.c and
  *         from gnome-desktop/libscarecrow-desktop/scarecrow-idle-monitor.c
  */
 
@@ -50,12 +50,12 @@ handle_reset_idletime (MetaDBusIdleMonitor   *skeleton,
                        GDBusMethodInvocation *invocation,
                        MetaIdleMonitor       *monitor)
 {
-  if (!g_getenv ("MUTTER_DEBUG_RESET_IDLETIME"))
+  if (!g_getenv ("VATER_DEBUG_RESET_IDLETIME"))
     {
       g_dbus_method_invocation_return_error_literal (invocation,
                                                      G_DBUS_ERROR,
                                                      G_DBUS_ERROR_UNKNOWN_METHOD,
-                                                     "This method is for testing purposes only. MUTTER_DEBUG_RESET_IDLETIME must be set to use it");
+                                                     "This method is for testing purposes only. VATER_DEBUG_RESET_IDLETIME must be set to use it");
       return TRUE;
     }
 
@@ -97,7 +97,7 @@ dbus_idle_callback (MetaIdleMonitor *monitor,
   g_dbus_connection_emit_signal (g_dbus_interface_skeleton_get_connection (skeleton),
                                  watch->dbus_name,
                                  g_dbus_interface_skeleton_get_object_path (skeleton),
-                                 "io.github.scarecrow_de.Mutter.IdleMonitor",
+                                 "io.github.scarecrow_de.Vater.IdleMonitor",
                                  "WatchFired",
                                  g_variant_new ("(u)", watch_id),
                                  NULL);
@@ -218,12 +218,12 @@ on_bus_acquired (GDBusConnection *connection,
   MetaIdleMonitor *monitor;
   char *path;
 
-  manager = g_dbus_object_manager_server_new ("/io/github/scarecrow_de/Mutter/IdleMonitor");
+  manager = g_dbus_object_manager_server_new ("/io/github/scarecrow_de/Vater/IdleMonitor");
 
   /* We never clear the core monitor, as that's supposed to cumulate idle times from
      all devices */
   monitor = meta_idle_monitor_get_core ();
-  path = g_strdup ("/io/github/scarecrow_de/Mutter/IdleMonitor/Core");
+  path = g_strdup ("/io/github/scarecrow_de/Vater/IdleMonitor/Core");
   create_monitor_skeleton (manager, monitor, path);
   g_free (path);
 
@@ -255,7 +255,7 @@ meta_idle_monitor_init_dbus (void)
     return;
 
   dbus_name_id = g_bus_own_name (G_BUS_TYPE_SESSION,
-                                 "io.github.scarecrow_de.Mutter.IdleMonitor",
+                                 "io.github.scarecrow_de.Vater.IdleMonitor",
                                  G_BUS_NAME_OWNER_FLAGS_ALLOW_REPLACEMENT |
                                  (meta_get_replace_current_wm () ?
                                   G_BUS_NAME_OWNER_FLAGS_REPLACE : 0),

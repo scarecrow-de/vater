@@ -1,6 +1,6 @@
-# English (British) translation for mutter.
+# English (British) translation for vater.
 # Copyright (C) 2002 The Gnome Foundation.
-# This file is distributed under the same licence as the mutter package.
+# This file is distributed under the same licence as the vater package.
 # Robert Brady <rwb197@ecs.soton.ac.uk>, Bastien Nocera <hadess@hadess.net>, 2002.
 # Gareth Owen <gowen72@yahoo.com>, 2004.
 # Philip Withnall <philip@tecnocode.co.uk>, 2010.
@@ -10,8 +10,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/mutter/issues\n"
+"Project-Id-Version: vater\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vater/issues\n"
 "POT-Creation-Date: 2020-09-04 22:07+0000\n"
 "PO-Revision-Date: 2020-09-11 13:30+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
@@ -24,239 +24,239 @@ msgstr ""
 "X-Generator: Gtranslator 3.36.0\n"
 "X-Project-Style: gnome\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-vater-navigation.xml:6
 msgid "Navigation"
 msgstr "Navigation"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-vater-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Move window to workspace 1"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-vater-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Move window to workspace 2"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-vater-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Move window to workspace 3"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-vater-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Move window to workspace 4"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-vater-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Move window to last workspace"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-vater-navigation.xml:24
 msgid "Move window one workspace up"
 msgstr "Move window one workspace up"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-vater-navigation.xml:27
 msgid "Move window one workspace down"
 msgstr "Move window one workspace down"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-vater-navigation.xml:30
 msgid "Move window one monitor to the left"
 msgstr "Move window one monitor to the left"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-vater-navigation.xml:33
 msgid "Move window one monitor to the right"
 msgstr "Move window one monitor to the right"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-vater-navigation.xml:36
 msgid "Move window one monitor up"
 msgstr "Move window one monitor up"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-vater-navigation.xml:39
 msgid "Move window one monitor down"
 msgstr "Move window one monitor down"
 
-#: data/50-mutter-navigation.xml:43
+#: data/50-vater-navigation.xml:43
 msgid "Switch applications"
 msgstr "Switch applications"
 
-#: data/50-mutter-navigation.xml:48
+#: data/50-vater-navigation.xml:48
 msgid "Switch to previous application"
 msgstr "Switch to previous application"
 
-#: data/50-mutter-navigation.xml:52
+#: data/50-vater-navigation.xml:52
 msgid "Switch windows"
 msgstr "Switch windows"
 
-#: data/50-mutter-navigation.xml:57
+#: data/50-vater-navigation.xml:57
 msgid "Switch to previous window"
 msgstr "Switch to previous window"
 
-#: data/50-mutter-navigation.xml:61
+#: data/50-vater-navigation.xml:61
 msgid "Switch windows of an application"
 msgstr "Switch windows of an application"
 
-#: data/50-mutter-navigation.xml:66
+#: data/50-vater-navigation.xml:66
 msgid "Switch to previous window of an application"
 msgstr "Switch to previous window of an application"
 
-#: data/50-mutter-navigation.xml:70
+#: data/50-vater-navigation.xml:70
 msgid "Switch system controls"
 msgstr "Switch system controls"
 
-#: data/50-mutter-navigation.xml:75
+#: data/50-vater-navigation.xml:75
 msgid "Switch to previous system control"
 msgstr "Switch to previous system control"
 
-#: data/50-mutter-navigation.xml:79
+#: data/50-vater-navigation.xml:79
 msgid "Switch windows directly"
 msgstr "Switch windows directly"
 
-#: data/50-mutter-navigation.xml:84
+#: data/50-vater-navigation.xml:84
 msgid "Switch directly to previous window"
 msgstr "Switch directly to previous window"
 
-#: data/50-mutter-navigation.xml:88
+#: data/50-vater-navigation.xml:88
 msgid "Switch windows of an app directly"
 msgstr "Switch windows of an app directly"
 
-#: data/50-mutter-navigation.xml:93
+#: data/50-vater-navigation.xml:93
 msgid "Switch directly to previous window of an app"
 msgstr "Switch directly to previous window of an app"
 
-#: data/50-mutter-navigation.xml:97
+#: data/50-vater-navigation.xml:97
 msgid "Switch system controls directly"
 msgstr "Switch system controls directly"
 
-#: data/50-mutter-navigation.xml:102
+#: data/50-vater-navigation.xml:102
 msgid "Switch directly to previous system control"
 msgstr "Switch directly to previous system control"
 
-#: data/50-mutter-navigation.xml:105
+#: data/50-vater-navigation.xml:105
 msgid "Hide all normal windows"
 msgstr "Hide all normal windows"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-vater-navigation.xml:108
 msgid "Switch to workspace 1"
 msgstr "Switch to workspace 1"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-vater-navigation.xml:111
 msgid "Switch to workspace 2"
 msgstr "Switch to workspace 2"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-vater-navigation.xml:114
 msgid "Switch to workspace 3"
 msgstr "Switch to workspace 3"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-vater-navigation.xml:117
 msgid "Switch to workspace 4"
 msgstr "Switch to workspace 4"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-vater-navigation.xml:120
 msgid "Switch to last workspace"
 msgstr "Switch to last workspace"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-vater-navigation.xml:123
 msgid "Move to workspace above"
 msgstr "Move to workspace above"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-vater-navigation.xml:126
 msgid "Move to workspace below"
 msgstr "Move to workspace below"
 
-#: data/50-mutter-system.xml:6 data/50-mutter-wayland.xml:6
+#: data/50-vater-system.xml:6 data/50-vater-wayland.xml:6
 msgid "System"
 msgstr "System"
 
-#: data/50-mutter-system.xml:8
+#: data/50-vater-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Show the run command prompt"
 
-#: data/50-mutter-system.xml:10
+#: data/50-vater-system.xml:10
 msgid "Show the activities overview"
 msgstr "Show the activities overview"
 
-#: data/50-mutter-wayland.xml:8
+#: data/50-vater-wayland.xml:8
 msgid "Restore the keyboard shortcuts"
 msgstr "Restore the keyboard shortcuts"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-vater-windows.xml:6
 msgid "Windows"
 msgstr "Windows"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-vater-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Activate the window menu"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-vater-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Toggle fullscreen mode"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-vater-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Toggle maximisation state"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-vater-windows.xml:14
 msgid "Maximize window"
 msgstr "Maximise window"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-vater-windows.xml:16
 msgid "Restore window"
 msgstr "Restore window"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-vater-windows.xml:18
 msgid "Close window"
 msgstr "Close window"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-vater-windows.xml:20
 msgid "Hide window"
 msgstr "Hide window"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-vater-windows.xml:22
 msgid "Move window"
 msgstr "Move window"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-vater-windows.xml:24
 msgid "Resize window"
 msgstr "Resize window"
 
-#: data/50-mutter-windows.xml:27
+#: data/50-vater-windows.xml:27
 msgid "Toggle window on all workspaces or one"
 msgstr "Toggle window on all workspaces or one"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-vater-windows.xml:29
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Raise window if covered, otherwise lower it"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-vater-windows.xml:31
 msgid "Raise window above other windows"
 msgstr "Raise window above other windows"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-vater-windows.xml:33
 msgid "Lower window below other windows"
 msgstr "Lower window below other windows"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-vater-windows.xml:35
 msgid "Maximize window vertically"
 msgstr "Maximise window vertically"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-vater-windows.xml:37
 msgid "Maximize window horizontally"
 msgstr "Maximise window horizontally"
 
-#: data/50-mutter-windows.xml:41
+#: data/50-vater-windows.xml:41
 msgid "View split on left"
 msgstr "View split on left"
 
-#: data/50-mutter-windows.xml:45
+#: data/50-vater-windows.xml:45
 msgid "View split on right"
 msgstr "View split on right"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/vater.desktop.in:4
+msgid "Vater"
+msgstr "Vater"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Modifier to use for extended window management operations"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -268,11 +268,11 @@ msgstr ""
 "key” on PC hardware. It’s expected that this binding either the default or "
 "set to the empty string."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Attach modal dialogues"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -282,11 +282,11 @@ msgstr ""
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Enable edge tiling when dropping windows on screen edges"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -296,11 +296,11 @@ msgstr ""
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximises them completely."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Workspaces are managed dynamically"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -310,11 +310,11 @@ msgstr ""
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Workspaces only on primary"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -322,11 +322,11 @@ msgstr ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "No tab popup"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -334,11 +334,11 @@ msgstr ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Delay focus changes until the pointer stops moving"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -348,11 +348,11 @@ msgstr ""
 "focus will not be changed immediately when entering a window, but only after "
 "the pointer stops moving."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Draggable border width"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -360,11 +360,11 @@ msgstr ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Auto maximise nearly monitor sized windows"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -372,11 +372,11 @@ msgstr ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximised."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Place new windows in the centre"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -384,21 +384,21 @@ msgstr ""
 "When true, the new windows will always be put in the centre of the active "
 "screen of the monitor."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Enable experimental features"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"vater default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “rt-scheduler” — makes "
-"mutter request a low priority real-time scheduling. The executable or user "
+"vater request a low priority real-time scheduling. The executable or user "
 "must have CAP_SYS_NICE. Requires a restart. • “autostart-xwayland” — "
 "initializes Xwayland lazily if there are X11 clients. Requires restart."
 msgstr ""
@@ -407,26 +407,26 @@ msgstr ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"vater default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “rt-scheduler” — makes "
-"mutter request a low priority real-time scheduling. The executable or user "
+"vater request a low priority real-time scheduling. The executable or user "
 "must have CAP_SYS_NICE. Requires a restart. • “autostart-xwayland” — "
 "initialises Xwayland lazily if there are X11 clients. Requires restart."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Modifier to use to locate the pointer"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "This key will initiate the “locate pointer” action."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:142
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:142
 msgid "Timeout for check-alive ping"
 msgstr "Timeout for check-alive ping"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:143
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:143
 msgid ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
@@ -434,79 +434,79 @@ msgstr ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "Select window from tab popup"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "Cancel tab popup"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:175
 msgid "Switch monitor configurations"
 msgstr "Switch monitor configurations"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:180
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:180
 msgid "Rotates the built-in monitor configuration"
 msgstr "Rotates the built-in monitor configuration"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:12
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:12
 msgid "Switch to VT 1"
 msgstr "Switch to VT 1"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:16
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:16
 msgid "Switch to VT 2"
 msgstr "Switch to VT 2"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:20
 msgid "Switch to VT 3"
 msgstr "Switch to VT 3"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:24
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:24
 msgid "Switch to VT 4"
 msgstr "Switch to VT 4"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:28
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:28
 msgid "Switch to VT 5"
 msgstr "Switch to VT 5"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:32
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:32
 msgid "Switch to VT 6"
 msgstr "Switch to VT 6"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:36
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:36
 msgid "Switch to VT 7"
 msgstr "Switch to VT 7"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:40
 msgid "Switch to VT 8"
 msgstr "Switch to VT 8"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:44
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:44
 msgid "Switch to VT 9"
 msgstr "Switch to VT 9"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:48
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:48
 msgid "Switch to VT 10"
 msgstr "Switch to VT 10"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:52
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:52
 msgid "Switch to VT 11"
 msgstr "Switch to VT 11"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:56
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:56
 msgid "Switch to VT 12"
 msgstr "Switch to VT 12"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:60
 msgid "Re-enable shortcuts"
 msgstr "Re-enable shortcuts"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:70
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:70
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr "Allow X11 grabs to lock keyboard focus with Xwayland"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:71
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:71
 #| msgid ""
 #| "Allow all keyboard events to be routed to X11 “override redirect” windows "
 #| "with a grab when running in Xwayland. This option is to support X11 "
@@ -538,11 +538,11 @@ msgstr ""
 "specific X11 ClientMessage to the root window or be among the applications "
 "allowed in key “xwayland-grab-access-rules”."
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:90
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr "Xwayland applications allowed to issue keyboard grabs"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:91
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:91
 #| msgid ""
 #| "List the resource names or resource class of X11 windows either allowed "
 #| "or not allowed to issue X11 keyboard grabs under Xwayland. The resource "
@@ -577,11 +577,11 @@ msgstr ""
 "using the specific keyboard shortcut defined by the keybinding key “restore-"
 "shortcuts”."
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:116
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:116
 msgid "Disable selected X extensions in Xwayland"
 msgstr "Disable selected X extensions in Xwayland"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:117
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:117
 msgid ""
 "This option disables the selected X extensions in Xwayland if Xwayland was "
 "built with support for those X extensions. This option has no effect if "
@@ -727,28 +727,28 @@ msgstr "_Force Quit"
 msgid "_Wait"
 msgstr "_Wait"
 
-#: src/core/mutter.c:38
+#: src/core/vater.c:38
 #, c-format
 msgid ""
-"mutter %s\n"
+"vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 
-#: src/core/mutter.c:52
+#: src/core/vater.c:52
 msgid "Print version"
 msgstr "Print version"
 
-#: src/core/mutter.c:58
-msgid "Mutter plugin to use"
-msgstr "Mutter plug-in to use"
+#: src/core/vater.c:58
+msgid "Vater plugin to use"
+msgstr "Vater plug-in to use"
 
 #: src/core/prefs.c:1911
 #, c-format
@@ -756,8 +756,8 @@ msgid "Workspace %d"
 msgstr "Workspace %d"
 
 #: src/core/util.c:118
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter was compiled without support for verbose mode\n"
+msgid "Vater was compiled without support for verbose mode\n"
+msgstr "Vater was compiled without support for verbose mode\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:568
 #, c-format
@@ -897,8 +897,8 @@ msgstr "%s (on %s)"
 #~ msgid "Failed to parse saved session file: %s\n"
 #~ msgstr "Failed to parse saved session file: %s\n"
 
-#~ msgid "<mutter_session> attribute seen but we already have the session ID"
-#~ msgstr "<mutter_session> attribute seen but we already have the session ID"
+#~ msgid "<vater_session> attribute seen but we already have the session ID"
+#~ msgstr "<vater_session> attribute seen but we already have the session ID"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Unknown attribute %s on <%s> element"

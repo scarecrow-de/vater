@@ -30,7 +30,7 @@
 
 #include "cogl-config.h"
 
-#include "cogl-mutter.h"
+#include "cogl-vater.h"
 #include "cogl-object.h"
 #include "cogl-private.h"
 #include "cogl-profile.h"

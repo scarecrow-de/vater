@@ -28,8 +28,8 @@
  *
  */
 
-#ifndef __COGL_MUTTER_H___
-#define __COGL_MUTTER_H___
+#ifndef __COGL_VATER_H___
+#define __COGL_VATER_H___
 
 #include "cogl-config.h"
 #include "cogl-defines.h"
@@ -52,4 +52,4 @@ COGL_EXPORT
 gboolean cogl_context_format_supports_upload (CoglContext     *ctx,
                                               CoglPixelFormat  format);
 
-#endif /* __COGL_MUTTER_H___ */
+#endif /* __COGL_VATER_H___ */

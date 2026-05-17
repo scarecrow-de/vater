@@ -52,7 +52,7 @@ clutter_headers = [
   'clutter-layout-meta.h',
   'clutter-macros.h',
   'clutter-main.h',
-  'clutter-mutter.h',
+  'clutter-vater.h',
   'clutter-offscreen-effect.h',
   'clutter-page-turn-effect.h',
   'clutter-paint-context.h',
@@ -295,7 +295,7 @@ clutter_built_headers = []
 clutter_built_private_headers = []
 
 cdata = configuration_data()
-cdata.set_quoted('MUTTER_VERSION', meson.project_version())
+cdata.set_quoted('VATER_VERSION', meson.project_version())
 cdata.set('CLUTTER_DRIVERS', '"*"')
 cdata.set('HAVE_EVDEV', have_native_backend)
 cdata.set('HAVE_LIBWACOM', have_libwacom)
@@ -354,8 +354,8 @@ clutter_marshal = gnome.genmarshal('clutter-marshal',
 clutter_built_sources += clutter_marshal[0]
 clutter_built_headers += clutter_marshal[1]
 
-libmutter_clutter_name = 'mutter-clutter-' + libmutter_api_version
-libmutter_clutter = shared_library(libmutter_clutter_name,
+libvater_clutter_name = 'vater-clutter-' + libvater_api_version
+libvater_clutter = shared_library(libvater_clutter_name,
   sources: [
     clutter_sources,
     clutter_headers,
@@ -379,16 +379,16 @@ libmutter_clutter = shared_library(libmutter_clutter_name,
   dependencies: [clutter_deps],
   gnu_symbol_visibility: 'hidden',
   link_with: [
-    libmutter_cogl,
-    libmutter_cogl_pango,
+    libvater_cogl,
+    libvater_cogl_pango,
   ],
   install_rpath: pkglibdir,
   install_dir: pkglibdir,
   install: true,
 )
-libmutter_clutter_dep = declare_dependency(
+libvater_clutter_dep = declare_dependency(
   sources: [clutter_enum_types[1]],
-  link_with: libmutter_clutter,
+  link_with: libvater_clutter,
   dependencies: clutter_deps,
 )
 
@@ -400,7 +400,7 @@ if have_introspection
     '-DG_LOG_DOMAIN="Clutter"'
   ]
 
-  libmutter_clutter_gir = gnome.generate_gir(libmutter_clutter,
+  libvater_clutter_gir = gnome.generate_gir(libvater_clutter,
     sources: [
       clutter_built_sources,
       clutter_built_headers,
@@ -408,12 +408,12 @@ if have_introspection
       clutter_headers,
       clutter_deprecated_headers,
     ],
-    nsversion: libmutter_api_version,
+    nsversion: libvater_api_version,
     namespace: 'Clutter',
-    export_packages: [libmutter_clutter_name],
+    export_packages: [libvater_clutter_name],
     includes: [
-      libmutter_cogl_gir[0],
-      libmutter_cogl_pango_gir[0],
+      libvater_cogl_gir[0],
+      libvater_cogl_pango_gir[0],
       'GL-1.0',
       'GObject-2.0',
       'cairo-1.0',
@@ -427,17 +427,17 @@ if have_introspection
     install: true,
   )
 
-  libmutter_cally_gir = gnome.generate_gir(libmutter_clutter,
+  libvater_cally_gir = gnome.generate_gir(libvater_clutter,
     sources: [
       cally_sources,
       cally_headers,
     ],
-    nsversion: libmutter_api_version,
+    nsversion: libvater_api_version,
     namespace: 'Cally',
     includes: [
-      libmutter_cogl_gir[0],
-      libmutter_cogl_pango_gir[0],
-      libmutter_clutter_gir[0],
+      libvater_cogl_gir[0],
+      libvater_cogl_pango_gir[0],
+      libvater_clutter_gir[0],
     ],
     dependencies: [cogl_deps],
     extra_args: clutter_introspection_args,
@@ -447,18 +447,18 @@ if have_introspection
   )
 
   if have_x11
-    libmutter_clutter_x11_gir = gnome.generate_gir(libmutter_clutter,
+    libvater_clutter_x11_gir = gnome.generate_gir(libvater_clutter,
       sources: [
         clutter_x11_sources,
         clutter_x11_headers,
       ],
-      nsversion: libmutter_api_version,
+      nsversion: libvater_api_version,
       namespace: 'ClutterX11',
-      export_packages: ['mutter-clutter-x11-' + libmutter_api_version],
+      export_packages: ['vater-clutter-x11-' + libvater_api_version],
       includes: [
-        libmutter_cogl_gir[0],
-        libmutter_cogl_pango_gir[0],
-        libmutter_clutter_gir[0],
+        libvater_cogl_gir[0],
+        libvater_cogl_pango_gir[0],
+        libvater_clutter_gir[0],
         'xlib-2.0',
       ],
       dependencies: [],
@@ -482,30 +482,30 @@ install_headers(clutter_deprecated_headers,
 install_headers(clutter_x11_headers,
   subdir: join_paths(clutter_clutter_includesubdir, 'x11'))
 
-pkg.generate(libmutter_clutter,
-  name: 'Mutters Clutter',
-  filebase: libmutter_clutter_name,
-  description: 'Mutters Clutter Private Library',
+pkg.generate(libvater_clutter,
+  name: 'Vaters Clutter',
+  filebase: libvater_clutter_name,
+  description: 'Vaters Clutter Private Library',
   libraries: [m_dep],
   subdirs: join_paths(pkgname, 'clutter'),
-  requires: [clutter_pkg_deps, libmutter_cogl_name],
+  requires: [clutter_pkg_deps, libvater_cogl_name],
   version: meson.project_version(),
   variables: [
-    'apiversion=' + libmutter_api_version,
+    'apiversion=' + libvater_api_version,
   ],
   install_dir: pcdir,
 )
 
-pkg.generate(libmutter_clutter,
-  name: 'Mutters ClutterX11',
-  filebase: 'mutter-clutter-x11-' + libmutter_api_version,
-  description: 'Mutters ClutterX11 Private Library',
+pkg.generate(libvater_clutter,
+  name: 'Vaters ClutterX11',
+  filebase: 'vater-clutter-x11-' + libvater_api_version,
+  description: 'Vaters ClutterX11 Private Library',
   libraries: [m_dep],
   subdirs: join_paths(pkgname, 'clutter'),
-  requires: [clutter_pkg_deps, libmutter_cogl_name],
+  requires: [clutter_pkg_deps, libvater_cogl_name],
   version: meson.project_version(),
   variables: [
-    'apiversion=' + libmutter_api_version,
+    'apiversion=' + libvater_api_version,
   ],
   install_dir: pcdir,
 )

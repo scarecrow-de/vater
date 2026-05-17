@@ -4,14 +4,14 @@
 <node>
 
   <!--
-      io.github.scarecrow_de.Mutter.RemoteDesktop:
+      io.github.scarecrow_de.Vater.RemoteDesktop:
       @short_description: Remote desktop interface
 
       This API is private and not intended to be used outside of the integrated
-      system that uses libmutter. No compatibility between versions are
+      system that uses libvater. No compatibility between versions are
       promised.
   -->
-  <interface name="io.github.scarecrow_de.Mutter.RemoteDesktop">
+  <interface name="io.github.scarecrow_de.Vater.RemoteDesktop">
 
     <!--
 	CreateSession:
@@ -41,10 +41,10 @@
   </interface>
 
   <!--
-       io.github.scarecrow_de.Mutter.RemoteDesktop.Session:
+       io.github.scarecrow_de.Vater.RemoteDesktop.Session:
        @short_description: Remote desktop session
   -->
-  <interface name="io.github.scarecrow_de.Mutter.RemoteDesktop.Session">
+  <interface name="io.github.scarecrow_de.Vater.RemoteDesktop.Session">
 
     <!--
 	SessionId:

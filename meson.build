@@ -1,17 +1,17 @@
-project('mutter', 'c',
+project('vater', 'c',
   version: '3.38.6',
   meson_version: '>= 0.51.0',
   license: 'GPLv2+'
 )
 
-mutter_plugin_api_version = '3'
+vater_plugin_api_version = '3'
 
 split_version = meson.project_version().split('.')
 
 # Automatically increase API version each development cycle,
 # starting with 0 in 3.23.x
 api_version = (split_version[1].to_int() - 23) / 2
-libmutter_api_version = '@0@'.format(api_version)
+libvater_api_version = '@0@'.format(api_version)
 
 # generic version requirements
 fribidi_req = '>= 1.0.0'
@@ -69,7 +69,7 @@ libexecdir = join_paths(prefix, get_option('libexecdir'))
 includedir = join_paths(prefix, get_option('includedir'))
 sysconfdir = get_option('sysconfdir')
 
-pkgname = '@0@-@1@'.format(meson.project_name(), libmutter_api_version)
+pkgname = '@0@-@1@'.format(meson.project_name(), libvater_api_version)
 
 pkgdatadir = join_paths(datadir, pkgname)
 pkglibdir = join_paths(libdir, pkgname)
@@ -80,13 +80,13 @@ pcdir = join_paths(libdir, 'pkgconfig')
 gettext_package = meson.project_name()
 localedir = join_paths(datadir, 'locale')
 
-libmutter_name = 'mutter-' + libmutter_api_version
+libvater_name = 'vater-' + libvater_api_version
 
-mutter_installed_tests_datadir = join_paths(
-  datadir, 'installed-tests', libmutter_name)
+vater_installed_tests_datadir = join_paths(
+  datadir, 'installed-tests', libvater_name)
 
-mutter_installed_tests_libexecdir = join_paths(
-  libexecdir, 'installed-tests', libmutter_name)
+vater_installed_tests_libexecdir = join_paths(
+  libexecdir, 'installed-tests', libvater_name)
 
 m_dep = cc.find_library('m', required: true)
 x11_dep = dependency('x11')
@@ -444,10 +444,10 @@ xwayland_grab_default_access_rules = get_option('xwayland_grab_default_access_ru
 cdata.set_quoted('XWAYLAND_GRAB_DEFAULT_ACCESS_RULES',
                  xwayland_grab_default_access_rules)
 
-cdata.set_quoted('MUTTER_PLUGIN_DIR', join_paths(pkglibdir, 'plugins'))
-cdata.set_quoted('MUTTER_LOCALEDIR', localedir)
-cdata.set_quoted('MUTTER_LIBEXECDIR', libexecdir)
-cdata.set_quoted('MUTTER_PKGDATADIR', pkgdatadir)
+cdata.set_quoted('VATER_PLUGIN_DIR', join_paths(pkglibdir, 'plugins'))
+cdata.set_quoted('VATER_LOCALEDIR', localedir)
+cdata.set_quoted('VATER_LIBEXECDIR', libexecdir)
+cdata.set_quoted('VATER_PKGDATADIR', pkgdatadir)
 
 config_h = configure_file(
   input: 'config.h.meson',
@@ -469,7 +469,7 @@ meson.add_install_script('meson/meson-postinstall.sh')
 output = [
   '',
   '',
-  '   Mutter ' + meson.project_version(),
+  '   Vater ' + meson.project_version(),
   '  ===============',
   '',
   '    Prefix....................... ' + prefix,

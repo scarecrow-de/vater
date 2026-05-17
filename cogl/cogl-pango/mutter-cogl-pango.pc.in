@@ -1,13 +1,13 @@
 prefix=@prefix@
 exec_prefix=@exec_prefix@
-apiversion=@LIBMUTTER_API_VERSION@
-libdir=@libdir@/mutter-${apiversion}
-includedir=@includedir@/mutter-${apiversion}
-requires=@COGL_PKG_REQUIRES@ mutter-cogl-${apiversion}
+apiversion=@LIBVATER_API_VERSION@
+libdir=@libdir@/vater-${apiversion}
+includedir=@includedir@/vater-${apiversion}
+requires=@COGL_PKG_REQUIRES@ vater-cogl-${apiversion}
 
 Name: Cogl
 Description: An object oriented GL/GLES Abstraction/Utility Layer
-Version: @MUTTER_VERSION@
-Libs: -L${libdir} -lmutter-cogl-pango-${apiversion}
+Version: @VATER_VERSION@
+Libs: -L${libdir} -lvater-cogl-pango-${apiversion}
 Cflags: -I${includedir}/cogl
 Requires: ${requires}

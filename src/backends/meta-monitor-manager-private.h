@@ -47,7 +47,7 @@ typedef enum _MetaMonitorManagerCapability
   META_MONITOR_MANAGER_CAPABILITY_GLOBAL_SCALE_REQUIRED = (1 << 1)
 } MetaMonitorManagerCapability;
 
-/* Equivalent to the 'method' enum in io.github.scarecrow_de.Mutter.DisplayConfig */
+/* Equivalent to the 'method' enum in io.github.scarecrow_de.Vater.DisplayConfig */
 typedef enum _MetaMonitorsConfigMethod
 {
   META_MONITORS_CONFIG_METHOD_VERIFY = 0,
@@ -55,7 +55,7 @@ typedef enum _MetaMonitorsConfigMethod
   META_MONITORS_CONFIG_METHOD_PERSISTENT = 2
 } MetaMonitorsConfigMethod;
 
-/* Equivalent to the 'layout-mode' enum in io.github.scarecrow_de.Mutter.DisplayConfig */
+/* Equivalent to the 'layout-mode' enum in io.github.scarecrow_de.Vater.DisplayConfig */
 typedef enum _MetaLogicalMonitorLayoutMode
 {
   META_LOGICAL_MONITOR_LAYOUT_MODE_LOGICAL = 1,

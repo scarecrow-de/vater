@@ -48,7 +48,7 @@ void
 meta_plugin_manager_set_plugin_type (GType gtype)
 {
   if (plugin_type != G_TYPE_NONE)
-    meta_fatal ("Mutter plugin already set: %s", g_type_name (plugin_type));
+    meta_fatal ("Vater plugin already set: %s", g_type_name (plugin_type));
 
   plugin_type = gtype;
 }
@@ -59,7 +59,7 @@ meta_plugin_manager_set_plugin_type (GType gtype)
 void
 meta_plugin_manager_load (const gchar       *plugin_name)
 {
-  const gchar *dpath = MUTTER_PLUGIN_DIR "/";
+  const gchar *dpath = VATER_PLUGIN_DIR "/";
   gchar       *path;
   MetaModule  *module;
 
@@ -72,7 +72,7 @@ meta_plugin_manager_load (const gchar       *plugin_name)
   if (!module || !g_type_module_use (G_TYPE_MODULE (module)))
     {
       /* This is fatal under the assumption that a monitoring
-       * process like gnome-session will take over and handle
+       * process like scarecrow-session will take over and handle
        * our untimely exit.
        */
       g_printerr ("Unable to load plugin module [%s]: %s",

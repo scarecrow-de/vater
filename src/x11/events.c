@@ -751,7 +751,7 @@ handle_window_focus_event (MetaX11Display *x11_display,
    *
    * My suggestion is to change it so that we clearly separate
    * actual keyboard focus tracking using the xterm algorithm,
-   * and mutter's "pretend" focus window, and go through all
+   * and vater's "pretend" focus window, and go through all
    * the code and decide which one should be used in each place;
    * a hard bit is deciding on a policy for that.
    *
@@ -927,7 +927,7 @@ handle_input_xevent (MetaX11Display *x11_display,
             {
               meta_topic (META_DEBUG_FOCUS,
                           "Focus got set to root window, probably due to "
-                          "gnome-session logout dialog usage (see bug "
+                          "scarecrow-session logout dialog usage (see bug "
                           "153220).  Setting the default focus window.\n");
               meta_workspace_focus_default_window (workspace_manager->active_workspace,
                                                    NULL,
@@ -1530,7 +1530,7 @@ handle_other_xevent (MetaX11Display *x11_display,
              * sentinel_counter variable declaration in display.h
              */
             if (event->xproperty.atom ==
-                x11_display->atom__MUTTER_SENTINEL)
+                x11_display->atom__VATER_SENTINEL)
               {
                 meta_x11_display_decrement_focus_sentinel (x11_display);
               }
@@ -1760,7 +1760,7 @@ process_selection_event (MetaX11Display *x11_display,
  * @event: The event that just happened
  *
  * This is the most important function in the whole program. It is the heart,
- * it is the nexus, it is the Grand Central Station of Mutter's world.
+ * it is the nexus, it is the Grand Central Station of Vater's world.
  * When we create a #MetaDisplay, we ask GDK to pass *all* events for *all*
  * windows to this function. So every time anything happens that we might
  * want to know about, this function gets called. You see why it gets a bit

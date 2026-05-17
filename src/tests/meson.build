@@ -7,14 +7,14 @@ if have_clutter_tests
   subdir('clutter')
 endif
 
-tests_includepath = mutter_includes
-tests_c_args = mutter_c_args
+tests_includepath = vater_includes
+tests_c_args = vater_c_args
 
 tests_deps = [
-  mutter_deps,
-  libmutter_dep,
-  libmutter_cogl_dep,
-  libmutter_clutter_dep,
+  vater_deps,
+  libvater_dep,
+  libvater_cogl_dep,
+  libvater_clutter_dep,
 ]
 
 subdir('wayland-test-clients')
@@ -24,14 +24,14 @@ if have_installed_tests
 
   installed_tests_cdata = configuration_data()
   installed_tests_cdata.set('libexecdir', libexecdir)
-  installed_tests_cdata.set('apiversion', libmutter_api_version)
+  installed_tests_cdata.set('apiversion', libvater_api_version)
 
   configure_file(
-    input: 'mutter-all.test.in',
-    output: 'mutter-all.test',
+    input: 'vater-all.test.in',
+    output: 'vater-all.test',
     configuration: installed_tests_cdata,
     install: true,
-    install_dir: mutter_installed_tests_datadir,
+    install_dir: vater_installed_tests_datadir,
   )
 
   install_subdir('stacking', install_dir: stacking_files_datadir)
@@ -40,9 +40,9 @@ endif
 test_env = environment()
 test_env.set('G_TEST_SRCDIR', join_paths(meson.source_root(), 'src'))
 test_env.set('G_TEST_BUILDDIR', meson.build_root())
-test_env.set('MUTTER_TEST_PLUGIN_PATH', '@0@'.format(default_plugin.full_path()))
+test_env.set('VATER_TEST_PLUGIN_PATH', '@0@'.format(default_plugin.full_path()))
 
-test_client = executable('mutter-test-client',
+test_client = executable('vater-test-client',
   sources: ['test-client.c'],
   include_directories: tests_includepath,
   c_args: tests_c_args,
@@ -53,10 +53,10 @@ test_client = executable('mutter-test-client',
     xext_dep,
   ],
   install: have_installed_tests,
-  install_dir: mutter_installed_tests_libexecdir,
+  install_dir: vater_installed_tests_libexecdir,
 )
 
-test_runner = executable('mutter-test-runner',
+test_runner = executable('vater-test-runner',
   sources: [
     'test-utils.c',
     'test-utils.h',
@@ -66,10 +66,10 @@ test_runner = executable('mutter-test-runner',
   c_args: tests_c_args,
   dependencies: [tests_deps],
   install: have_installed_tests,
-  install_dir: mutter_installed_tests_libexecdir,
+  install_dir: vater_installed_tests_libexecdir,
 )
 
-unit_tests = executable('mutter-test-unit-tests',
+unit_tests = executable('vater-test-unit-tests',
   sources: [
     'test-utils.c',
     'test-utils.h',
@@ -101,10 +101,10 @@ unit_tests = executable('mutter-test-unit-tests',
   c_args: tests_c_args,
   dependencies: [tests_deps],
   install: have_installed_tests,
-  install_dir: mutter_installed_tests_libexecdir,
+  install_dir: vater_installed_tests_libexecdir,
 )
 
-headless_start_test = executable('mutter-headless-start-test',
+headless_start_test = executable('vater-headless-start-test',
   sources: [
     'headless-start-test.c',
     'meta-backend-test.c',
@@ -120,10 +120,10 @@ headless_start_test = executable('mutter-headless-start-test',
   c_args: tests_c_args,
   dependencies: [tests_deps],
   install: have_installed_tests,
-  install_dir: mutter_installed_tests_libexecdir,
+  install_dir: vater_installed_tests_libexecdir,
 )
 
-stage_view_tests = executable('mutter-stage-view-tests',
+stage_view_tests = executable('vater-stage-view-tests',
   sources: [
     'meta-backend-test.c',
     'meta-backend-test.h',
@@ -141,7 +141,7 @@ stage_view_tests = executable('mutter-stage-view-tests',
   c_args: tests_c_args,
   dependencies: [tests_deps],
   install: have_installed_tests,
-  install_dir: mutter_installed_tests_libexecdir,
+  install_dir: vater_installed_tests_libexecdir,
 )
 
 stacking_tests = [
@@ -173,7 +173,7 @@ stacking_tests = [
 
 foreach stacking_test: stacking_tests
   test(stacking_test, test_runner,
-    suite: ['core', 'mutter/stacking'],
+    suite: ['core', 'vater/stacking'],
     env: test_env,
     args: [
       files(join_paths('stacking', stacking_test + '.metatest')),
@@ -184,21 +184,21 @@ foreach stacking_test: stacking_tests
 endforeach
 
 test('normal', unit_tests,
-  suite: ['core', 'mutter/unit'],
+  suite: ['core', 'vater/unit'],
   env: test_env,
   is_parallel: false,
   timeout: 60,
 )
 
 test('headless-start', headless_start_test,
-  suite: ['core', 'mutter/unit'],
+  suite: ['core', 'vater/unit'],
   env: test_env,
   is_parallel: false,
   timeout: 60,
 )
 
 test('stage-view', stage_view_tests,
-  suite: ['core', 'mutter/unit'],
+  suite: ['core', 'vater/unit'],
   env: test_env,
   is_parallel: false,
   timeout: 60,

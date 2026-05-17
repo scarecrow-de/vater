@@ -30,7 +30,7 @@
 
 #include "backends/meta-stage-private.h"
 #include "clutter/clutter.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "cogl/cogl.h"
 #include "core/boxes-private.h"
 #include "meta/meta-backend.h"

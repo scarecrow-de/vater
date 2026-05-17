@@ -1,8 +1,8 @@
 msgfmt = find_program('msgfmt')
 
-custom_target('mutter.desktop',
-  input: 'mutter.desktop.in',
-  output: 'mutter.desktop',
+custom_target('vater.desktop',
+  input: 'vater.desktop.in',
+  output: 'vater.desktop',
   command: [
     msgfmt,
     '--desktop', '--template',
@@ -15,17 +15,17 @@ custom_target('mutter.desktop',
 )
 
 # Unconditionally use this dir to avoid a circular dep with gnomecc
-gnome_keybindings_keysdir = join_paths(datadir, 'gnome-control-center/keybindings')
+gnome_keybindings_keysdir = join_paths(datadir, 'scarecrow-control-center/keybindings')
 
 keybinding_xml_files = [
-  '50-mutter-navigation.xml',
-  '50-mutter-system.xml',
-  '50-mutter-windows.xml',
+  '50-vater-navigation.xml',
+  '50-vater-system.xml',
+  '50-vater-windows.xml',
 ]
 
 if have_wayland
   keybinding_xml_files += [
-    '50-mutter-wayland.xml',
+    '50-vater-wayland.xml',
   ]
 endif
 
@@ -42,25 +42,25 @@ gschema_config.set('XWAYLAND_GRAB_DEFAULT_ACCESS_RULES',
 
 schemadir = join_paths(datadir, 'glib-2.0', 'schemas')
 configure_file(
-  input: 'io.github.scarecrow_de.mutter.gschema.xml.in',
-  output: 'io.github.scarecrow_de.mutter.gschema.xml',
+  input: 'io.github.scarecrow_de.vater.gschema.xml.in',
+  output: 'io.github.scarecrow_de.vater.gschema.xml',
   configuration: gschema_config,
   install_dir: schemadir
 )
 
 configure_file(
-  input: 'io.github.scarecrow_de.mutter.wayland.gschema.xml.in',
-  output: 'io.github.scarecrow_de.mutter.wayland.gschema.xml',
+  input: 'io.github.scarecrow_de.vater.wayland.gschema.xml.in',
+  output: 'io.github.scarecrow_de.vater.wayland.gschema.xml',
   configuration: gschema_config,
   install_dir: schemadir
 )
 
-install_data(['mutter-schemas.convert'],
+install_data(['vater-schemas.convert'],
   install_dir: join_paths(datadir, 'GConf/gsettings'),
 )
 
 if have_libgudev
-  install_data(['61-mutter.rules'],
+  install_data(['61-vater.rules'],
     install_dir: join_paths(udevdir, 'rules.d'),
   )
 endif

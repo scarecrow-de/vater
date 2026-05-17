@@ -8,7 +8,7 @@ first to ensure that you create a clear and specific issue.
 <!--
 Provide at least the following information:
 * Your OS and version
-* Affected Mutter version
+* Affected Vater version
 * Does this issue appear in XOrg and/or Wayland
 -->
 
@@ -29,13 +29,13 @@ Provide a short summary of the bug you encountered.
 ### What happened
 
 <!-- 
-What did Mutter do that was unexpected?
+What did Vater do that was unexpected?
 -->
 
 ### What did you expect to happen
 
 <!-- 
-What did you expect Mutter to do?
+What did you expect Vater to do?
 -->
 
 ### Relevant logs, screenshots, screencasts etc.
@@ -45,7 +45,7 @@ If you have further information, such as technical documentation, logs,
 screenshots or screencasts related, please provide them here.
 
 If the bug is a crash, please obtain a stack trace with installed debug
-symbols (at least for GNOME Shell and Mutter) and attach it to
+symbols (at least for GNOME Shell and Vater) and attach it to
 this issue following the instructions on
 https://wiki.gnome.org/Community/GettingInTouch/Bugzilla/GettingTraces.
 -->

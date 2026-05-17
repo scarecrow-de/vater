@@ -57,7 +57,7 @@ struct _MetaXWaylandDnd
   Time client_message_timestamp;
   MetaWaylandDataSource *source; /* owned by MetaWaylandDataDevice */
   MetaWaylandSurface *focus_surface;
-  Window dnd_window; /* Mutter-internal window, acts as peer on wayland drop sites */
+  Window dnd_window; /* Vater-internal window, acts as peer on wayland drop sites */
   Window dnd_dest; /* X11 drag dest window */
   guint32 last_motion_time;
 };

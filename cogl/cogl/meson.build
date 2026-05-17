@@ -353,7 +353,7 @@ cogl_sources = [
   'deprecated/cogl-shader.c',
   'deprecated/cogl-clutter.c',
   'cogl-glib-source.c',
-  'cogl-mutter.h',
+  'cogl-vater.h',
 ]
 
 if have_x11
@@ -427,11 +427,11 @@ cogl_headers_all = [
 cogl_test_deps = []
 
 if have_cogl_tests
-  cogl_test_deps += [libmutter_cogl_test_fixtures_dep]
+  cogl_test_deps += [libvater_cogl_test_fixtures_dep]
 endif
 
-libmutter_cogl_name = 'mutter-cogl-' + libmutter_api_version
-libmutter_cogl = shared_library(libmutter_cogl_name,
+libvater_cogl_name = 'vater-cogl-' + libvater_api_version
+libvater_cogl = shared_library(libvater_cogl_name,
   sources: [cogl_sources, cogl_headers_all],
   version: '0.0.0',
   soversion: 0,
@@ -443,15 +443,15 @@ libmutter_cogl = shared_library(libmutter_cogl_name,
   install_dir: pkglibdir,
   install: true,
 )
-libmutter_cogl_dep = declare_dependency(
+libvater_cogl_dep = declare_dependency(
   dependencies: [cogl_deps],
-  link_with: libmutter_cogl,
+  link_with: libvater_cogl,
 )
 
 if have_introspection
-  libmutter_cogl_gir = gnome.generate_gir(libmutter_cogl,
+  libvater_cogl_gir = gnome.generate_gir(libvater_cogl,
     sources: cogl_introspected_headers,
-    nsversion: libmutter_api_version,
+    nsversion: libvater_api_version,
     namespace: 'Cogl',
     includes: ['cairo-1.0', 'GL-1.0', 'GObject-2.0', 'Graphene-1.0'],
     dependencies: [cogl_deps],
@@ -484,16 +484,16 @@ install_headers([
 install_headers(cogl_gl_prototype_headers,
   subdir: join_paths(cogl_cogl_includesubdir, 'gl-prototypes'))
 
-pkg.generate(libmutter_cogl,
+pkg.generate(libvater_cogl,
   name: 'Cogl',
-  filebase: libmutter_cogl_name,
-  description: 'An object oriented GL/GLES Abstraction/Utility Layer in mutter',
+  filebase: libvater_cogl_name,
+  description: 'An object oriented GL/GLES Abstraction/Utility Layer in vater',
   libraries: [m_dep],
   subdirs: join_paths(pkgname, 'cogl'),
   requires: [cogl_pkg_deps],
   version: meson.project_version(),
   variables: [
-    'apiversion=' + libmutter_api_version,
+    'apiversion=' + libvater_api_version,
   ],
   install_dir: pcdir,
 )

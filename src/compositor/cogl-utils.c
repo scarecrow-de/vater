@@ -24,7 +24,7 @@
 #include "clutter/clutter.h"
 #include "compositor/cogl-utils.h"
 
-/* Based on gnome-shell/src/st/st-private.c:_st_create_texture_material.c */
+/* Based on scarecrow-shell/src/st/st-private.c:_st_create_texture_material.c */
 
 /**
  * meta_create_texture_pipeline:
@@ -32,7 +32,7 @@
  *
  * Creates a pipeline with a single layer. Using a common template
  * makes it easier for Cogl to share a shader for different uses in
- * Mutter.
+ * Vater.
  *
  * Return value: (transfer full): a newly created #CoglPipeline
  */

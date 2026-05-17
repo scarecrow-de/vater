@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/mutter/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/vater/issues\n"
 "POT-Creation-Date: 2020-08-29 10:31+0000\n"
 "PO-Revision-Date: 2020-08-29 14:01+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
@@ -20,241 +20,241 @@ msgstr ""
 "X-Generator: Lokalize 20.11.70\n"
 "X-Project-Style: gnome\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-vater-navigation.xml:6
 msgid "Navigation"
 msgstr "Навігація"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-vater-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Перемістити вікно на робочий простір 1"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-vater-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Перемістити вікно на робочий простір 2"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-vater-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Перемістити вікно на робочий простір 3"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-vater-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Перемістити вікно на робочий простір 4"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-vater-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Перемістити вікно на останній робочий простір"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-vater-navigation.xml:24
 msgid "Move window one workspace up"
 msgstr "Перемістити вікно на робочий простір вище"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-vater-navigation.xml:27
 msgid "Move window one workspace down"
 msgstr "Перемістити вікно на робочий простір нижче"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-vater-navigation.xml:30
 msgid "Move window one monitor to the left"
 msgstr "Перемістити вікно на монітор ліворуч"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-vater-navigation.xml:33
 msgid "Move window one monitor to the right"
 msgstr "Перемістити вікно на монітор праворуч"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-vater-navigation.xml:36
 msgid "Move window one monitor up"
 msgstr "Перемістити вікно на монітор вище"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-vater-navigation.xml:39
 msgid "Move window one monitor down"
 msgstr "Перемістити вікно на монітор нижче"
 
-#: data/50-mutter-navigation.xml:43
+#: data/50-vater-navigation.xml:43
 msgid "Switch applications"
 msgstr "Перемкнути програми"
 
-#: data/50-mutter-navigation.xml:48
+#: data/50-vater-navigation.xml:48
 msgid "Switch to previous application"
 msgstr "Перемкнути до попередньої програми"
 
-#: data/50-mutter-navigation.xml:52
+#: data/50-vater-navigation.xml:52
 msgid "Switch windows"
 msgstr "Перемкнути вікна"
 
-#: data/50-mutter-navigation.xml:57
+#: data/50-vater-navigation.xml:57
 msgid "Switch to previous window"
 msgstr "Перемкнути до попереднього вікна"
 
-#: data/50-mutter-navigation.xml:61
+#: data/50-vater-navigation.xml:61
 msgid "Switch windows of an application"
 msgstr "Перемкнути вікна програм"
 
-#: data/50-mutter-navigation.xml:66
+#: data/50-vater-navigation.xml:66
 msgid "Switch to previous window of an application"
 msgstr "Перемкнути до попереднього вікна програми"
 
-#: data/50-mutter-navigation.xml:70
+#: data/50-vater-navigation.xml:70
 msgid "Switch system controls"
 msgstr "Перемкнути системні керування"
 
-#: data/50-mutter-navigation.xml:75
+#: data/50-vater-navigation.xml:75
 msgid "Switch to previous system control"
 msgstr "Перемкнути до переднього системного керування"
 
-#: data/50-mutter-navigation.xml:79
+#: data/50-vater-navigation.xml:79
 msgid "Switch windows directly"
 msgstr "Перемкнути вікна напряму"
 
-#: data/50-mutter-navigation.xml:84
+#: data/50-vater-navigation.xml:84
 msgid "Switch directly to previous window"
 msgstr "Перемкнути напряму до попереднього вікна"
 
-#: data/50-mutter-navigation.xml:88
+#: data/50-vater-navigation.xml:88
 msgid "Switch windows of an app directly"
 msgstr "Перемкнути вікна програм напряму"
 
-#: data/50-mutter-navigation.xml:93
+#: data/50-vater-navigation.xml:93
 msgid "Switch directly to previous window of an app"
 msgstr "Перемкнути напряму до попереднього вікна програми"
 
-#: data/50-mutter-navigation.xml:97
+#: data/50-vater-navigation.xml:97
 msgid "Switch system controls directly"
 msgstr "Перемкнути системні керування напряму"
 
-#: data/50-mutter-navigation.xml:102
+#: data/50-vater-navigation.xml:102
 msgid "Switch directly to previous system control"
 msgstr "Перемкнути напряму до переднього системного керування"
 
-#: data/50-mutter-navigation.xml:105
+#: data/50-vater-navigation.xml:105
 msgid "Hide all normal windows"
 msgstr "Сховати всі звичайні вікна"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-vater-navigation.xml:108
 msgid "Switch to workspace 1"
 msgstr "Перейти до робочого простору 1"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-vater-navigation.xml:111
 msgid "Switch to workspace 2"
 msgstr "Перейти до робочого простору 2"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-vater-navigation.xml:114
 msgid "Switch to workspace 3"
 msgstr "Перейти до робочого простору 3"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-vater-navigation.xml:117
 msgid "Switch to workspace 4"
 msgstr "Перейти до робочого простору 4"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-vater-navigation.xml:120
 msgid "Switch to last workspace"
 msgstr "Перейти до останнього робочого простору"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-vater-navigation.xml:123
 msgid "Move to workspace above"
 msgstr "Перейти до робочого простору вище"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-vater-navigation.xml:126
 msgid "Move to workspace below"
 msgstr "Перейти до робочого простору знизу"
 
-#: data/50-mutter-system.xml:6 data/50-mutter-wayland.xml:6
+#: data/50-vater-system.xml:6 data/50-vater-wayland.xml:6
 msgid "System"
 msgstr "Система"
 
-#: data/50-mutter-system.xml:8
+#: data/50-vater-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Показати запуск командного рядка"
 
-#: data/50-mutter-system.xml:10
+#: data/50-vater-system.xml:10
 msgid "Show the activities overview"
 msgstr "Показати огляд активності"
 
-#: data/50-mutter-wayland.xml:8
+#: data/50-vater-wayland.xml:8
 msgid "Restore the keyboard shortcuts"
 msgstr "Відновити клавіатурні скорочення"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-vater-windows.xml:6
 msgid "Windows"
 msgstr "Вікна"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-vater-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Активувати меню вікна"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-vater-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Перемикання повноекранного режиму"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-vater-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Перемкнути стан розгортання вікна на весь екран"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-vater-windows.xml:14
 msgid "Maximize window"
 msgstr "Розгорнути вікно"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-vater-windows.xml:16
 msgid "Restore window"
 msgstr "Відновити вікно"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-vater-windows.xml:18
 msgid "Close window"
 msgstr "Закрити вікно"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-vater-windows.xml:20
 msgid "Hide window"
 msgstr "Сховати вікно"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-vater-windows.xml:22
 msgid "Move window"
 msgstr "Перемістити вікно"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-vater-windows.xml:24
 msgid "Resize window"
 msgstr "Змінити розміри вікна"
 
-#: data/50-mutter-windows.xml:27
+#: data/50-vater-windows.xml:27
 msgid "Toggle window on all workspaces or one"
 msgstr "Перемикання вікна на всі робочі простори або один"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-vater-windows.xml:29
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Підняти вікно на передній план, якщо воно прикрите іншим, інакше опустити "
 
-#: data/50-mutter-windows.xml:31
+#: data/50-vater-windows.xml:31
 msgid "Raise window above other windows"
 msgstr "Підняти вікно над іншими"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-vater-windows.xml:33
 msgid "Lower window below other windows"
 msgstr "Перемістити вікна нижче усіх вікон"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-vater-windows.xml:35
 msgid "Maximize window vertically"
 msgstr "Розгорнути вікно на весь екран вертикально"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-vater-windows.xml:37
 msgid "Maximize window horizontally"
 msgstr "Розгорнути вікно на весь екран горизонтально"
 
-#: data/50-mutter-windows.xml:41
+#: data/50-vater-windows.xml:41
 msgid "View split on left"
 msgstr "Перегляд розділити ліворуч"
 
-#: data/50-mutter-windows.xml:45
+#: data/50-vater-windows.xml:45
 msgid "View split on right"
 msgstr "Перегляд розділити праворуч"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/vater.desktop.in:4
+msgid "Vater"
+msgstr "Vater"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:7
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Модифікатор, що використовується для розширених дій віконного менеджера"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:8
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -265,11 +265,11 @@ msgstr ""
 "запуску програм. Типово на це призначено клавішу «Win» в обладнанні. "
 "Очікується, що це буде прив'язка або типова, або порожній рядок."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Долучити модальні вікна"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:21
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -279,11 +279,11 @@ msgstr ""
 "долучено до батьківського вікна заголовка і пересунуто разом з батьківських "
 "вікном."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:30
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Увімкнути розбиття країв, коли кладуться вікна на краї екрана"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:31
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -293,11 +293,11 @@ msgstr ""
 "змінить їхній розмір горизонтально, щоб покрити половину доступної ділянки. "
 "Перекидання вікон на верхівку екрана розгорне їх повністю."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Робочі простори організовуються динамічно"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:41
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -307,11 +307,11 @@ msgstr ""
 "кількість просторів (визначено ключем num-workspaces у io.github.scarecrow_de.desktop.wm."
 "preferences)."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:50
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Робочий простір лише на первинному"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:51
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -319,11 +319,11 @@ msgstr ""
 "Визначає, чи перемикання робочого простору повинно здійснюватись для вікон "
 "на всіх моніторах, чи лише для вікон на первинному моніторі."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:59
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Без контекстних вкладок"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -331,11 +331,11 @@ msgstr ""
 "Визначає, чи слід вимкнути виринання і підкреслювання рамки для повторюваних "
 "вікон. "
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:68
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Затримувати зміни фокусу, поки вказівник не перестане рухатись"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:69
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -345,11 +345,11 @@ msgstr ""
 "будуть негайні, коли переходите на вікно, але тільки після того, як "
 "вказівник не рухатиметься."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:79
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Перетяжна ширина меж"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:80
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -357,11 +357,11 @@ msgstr ""
 "Загальний об'єм перетяжних меж. Якщо видимих меж теми не вистачає, буде "
 "використано це значення з невидимих меж."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:89
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Автоматично розгортати вікна з розміром екрана"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -369,31 +369,31 @@ msgstr ""
 "Якщо вказано, нові вікна, які запущено в розмірі екрана, автоматично "
 "розгортаються на ввесь екран."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:98
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Помістити нове вікно в центр"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:99
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr "Якщо вказано, нові вікна будуть завжди в центрі чинного екрана."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:107
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Увімкнути експериментальні можливості"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:108
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"vater default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “rt-scheduler” — makes "
-"mutter request a low priority real-time scheduling. The executable or user "
+"vater request a low priority real-time scheduling. The executable or user "
 "must have CAP_SYS_NICE. Requires a restart. • “autostart-xwayland” — "
 "initializes Xwayland lazily if there are X11 clients. Requires restart."
 msgstr ""
@@ -403,29 +403,29 @@ msgstr ""
 "обов'язково завжди доступні чи придатні до налаштовування. Не слід "
 "очікувати, що у майбутніх версіях обов'язково буде збережено якусь із "
 "експериментальних можливостей. У поточній версії передбачено такі ключові "
-"слова: • «scale-monitor-framebuffer» — наказує mutter типово розташовувати "
+"слова: • «scale-monitor-framebuffer» — наказує vater типово розташовувати "
 "логічні монітори у координатному просторі логічних пікселів, масштабуючи "
 "буфери кадрів моніторів, замість вмісту вікон. Призначено для роботи із "
 "моніторами із високою роздільною здатністю. Не потребує перезапуску "
-"композитора. • «rt-scheduler» — наказати mutter надсилати до системи запит "
+"композитора. • «rt-scheduler» — наказати vater надсилати до системи запит "
 "щодо низькопріоритетного планування режиму реального часу. Для виконуваного "
 "файла або запису користувача має бути встановлено CAP_SYS_NICE. Потребує "
 "перезапуску композитора. • «autostart-xwayland» — лінива ініціалізація "
 "Xwayland, якщо виявлено клієнти X11. Потребує перезапуску композитора."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:134
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:134
 msgid "Modifier to use to locate the pointer"
 msgstr "Модифікатор для пошуку вказівника"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:135
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:135
 msgid "This key will initiate the “locate pointer” action."
 msgstr "Ця комбінація ініціює дію «встановити розташування вказівника»"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:142
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:142
 msgid "Timeout for check-alive ping"
 msgstr "Інтервал між послідовними перевірками працездатності"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:143
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:143
 msgid ""
 "Number of milliseconds a client has to respond to a ping request in order to "
 "not be detected as frozen. Using 0 will disable the alive check completely."
@@ -434,80 +434,80 @@ msgstr ""
 "запит, щоб вважатися працездатним. Скористайтеся значенням 0, щоб повністю "
 "вимкнути перевірку працездатності."
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:165
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:165
 msgid "Select window from tab popup"
 msgstr "Вибрати вікно з контекстних вкладок"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:170
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:170
 msgid "Cancel tab popup"
 msgstr "Скасувати контекстні вкладки"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:175
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:175
 msgid "Switch monitor configurations"
 msgstr "Перемкнути налаштування монітора"
 
-#: data/io.github.scarecrow_de.mutter.gschema.xml.in:180
+#: data/io.github.scarecrow_de.vater.gschema.xml.in:180
 msgid "Rotates the built-in monitor configuration"
 msgstr "Зміна конфігурації вбудованого монітора"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:12
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:12
 msgid "Switch to VT 1"
 msgstr "Перейти до VT 1"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:16
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:16
 msgid "Switch to VT 2"
 msgstr "Перейти до VT 2"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:20
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:20
 msgid "Switch to VT 3"
 msgstr "Перейти до VT 3"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:24
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:24
 msgid "Switch to VT 4"
 msgstr "Перейти до VT 4"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:28
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:28
 msgid "Switch to VT 5"
 msgstr "Перейти до VT 5"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:32
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:32
 msgid "Switch to VT 6"
 msgstr "Перейти до VT 6"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:36
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:36
 msgid "Switch to VT 7"
 msgstr "Перейти до VT 7"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:40
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:40
 msgid "Switch to VT 8"
 msgstr "Перейти до VT 8"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:44
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:44
 msgid "Switch to VT 9"
 msgstr "Перейти до VT 9"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:48
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:48
 msgid "Switch to VT 10"
 msgstr "Перейти до VT 10"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:52
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:52
 msgid "Switch to VT 11"
 msgstr "Перейти до VT 11"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:56
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:56
 msgid "Switch to VT 12"
 msgstr "Перейти до VT 12"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:60
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:60
 msgid "Re-enable shortcuts"
 msgstr "Повторно увімкнути клавіатурні скорочення"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:70
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:70
 msgid "Allow X11 grabs to lock keyboard focus with Xwayland"
 msgstr ""
 "Дозволити захопленням у X11 блокувати зміну фокусування клавіатури з Xwayland"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:71
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:71
 msgid ""
 "Allow all keyboard events to be routed to X11 “override redirect” windows "
 "with a grab when running in Xwayland. This option is to support X11 clients "
@@ -532,12 +532,12 @@ msgstr ""
 "ClientMessage X11 до кореневого вікна, або мати свій пункт у списку "
 "дозволених програм ключа «xwayland-grab-access-rules»."
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:90
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:90
 msgid "Xwayland applications allowed to issue keyboard grabs"
 msgstr ""
 "Програми Xwayland, яким дозволено надсилати запит щодо захоплення клавіатури"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:91
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:91
 msgid ""
 "List the resource names or resource class of X11 windows either allowed or "
 "not allowed to issue X11 keyboard grabs under Xwayland. The resource name or "
@@ -562,11 +562,11 @@ msgstr ""
 "захоплення фокуса за допомогою певного клавіатурного скорочення, яке "
 "визначається ключем «restore-shortcuts»."
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:116
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:116
 msgid "Disable selected X extensions in Xwayland"
 msgstr "Вимкнути вибрані розширення X у Xwayland"
 
-#: data/io.github.scarecrow_de.mutter.wayland.gschema.xml.in:117
+#: data/io.github.scarecrow_de.vater.wayland.gschema.xml.in:117
 msgid ""
 "This option disables the selected X extensions in Xwayland if Xwayland was "
 "built with support for those X extensions. This option has no effect if "
@@ -710,27 +710,27 @@ msgstr "_Завершити примусово"
 msgid "_Wait"
 msgstr "_Зачекати"
 
-#: src/core/mutter.c:38
+#: src/core/vater.c:38
 #, c-format
 msgid ""
-"mutter %s\n"
+"vater %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"Mutter %s\n"
+"Vater %s\n"
 "© 2001-%d Havoc Pennington, Red Hat, Inc., та інші\n"
 "Це — вільне програмний засіб; умови копіювання дивіться в коді програми.\n"
 "Не надається НІЯКИХ гарантій; навіть ПРИДАТНОСТІ ДЛЯ ПРОДАЖУ чи "
 "ВІДПОВІДНОСТІ ПЕВНІЙ МЕТІ.\n"
 
-#: src/core/mutter.c:52
+#: src/core/vater.c:52
 msgid "Print version"
 msgstr "Показати версію"
 
-#: src/core/mutter.c:58
-msgid "Mutter plugin to use"
+#: src/core/vater.c:58
+msgid "Vater plugin to use"
 msgstr "Додатки Clutter для використання"
 
 #: src/core/prefs.c:1911
@@ -739,8 +739,8 @@ msgid "Workspace %d"
 msgstr "Робочий простір %d"
 
 #: src/core/util.c:119
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter зібрано без підтримки докладного режиму\n"
+msgid "Vater was compiled without support for verbose mode\n"
+msgstr "Vater зібрано без підтримки докладного режиму\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:568
 #, c-format

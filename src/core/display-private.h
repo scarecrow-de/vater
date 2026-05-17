@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X display handler */
+/* Vater X display handler */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
@@ -153,7 +153,7 @@ struct _MetaDisplay
 
   /* We maintain a sequence counter, incremented for each #MetaWindow
    * created.  This is exposed by meta_window_get_stable_sequence()
-   * but is otherwise not used inside mutter.
+   * but is otherwise not used inside vater.
    *
    * It can be useful to plugins which want to sort windows in a
    * stable fashion.

@@ -1,6 +1,6 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X property convenience routines */
+/* Vater X property convenience routines */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
@@ -92,7 +92,7 @@ from The Open Group.
 #include "meta/meta-x11-errors.h"
 #include "ui/ui.h"
 #include "x11/meta-x11-display-private.h"
-#include "x11/mutter-Xatomtype.h"
+#include "x11/vater-Xatomtype.h"
 
 typedef struct
 {

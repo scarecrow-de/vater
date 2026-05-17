@@ -23,7 +23,7 @@
 /**
  * SECTION:display
  * @title: MetaDisplay
- * @short_description: Mutter display representation
+ * @short_description: Vater display representation
  *
  * The display is represented as a #MetaDisplay struct.
  */
@@ -68,7 +68,7 @@
 #include "core/util-private.h"
 #include "core/window-private.h"
 #include "core/workspace-private.h"
-#include "meta/compositor-mutter.h"
+#include "meta/compositor-vater.h"
 #include "meta/compositor.h"
 #include "meta/main.h"
 #include "meta/meta-backend.h"
@@ -353,7 +353,7 @@ meta_display_class_init (MetaDisplayClass *klass)
    *
    * The ::show-restart-message signal will be emitted to indicate
    * that the compositor should show a message during restart. This is
-   * emitted when meta_restart() is called, either by Mutter
+   * emitted when meta_restart() is called, either by Vater
    * internally or by the embedding compositor.  The message should be
    * immediately added to the Clutter stage in its final form -
    * ::restart will be emitted to exit the application and leave the
@@ -381,7 +381,7 @@ meta_display_class_init (MetaDisplayClass *klass)
    *
    * The ::restart signal is emitted to indicate that compositor
    * should reexec the process. This is
-   * emitted when meta_restart() is called, either by Mutter
+   * emitted when meta_restart() is called, either by Vater
    * internally or by the embedding compositor. See also
    * ::show-restart-message.
    *
@@ -923,7 +923,7 @@ meta_display_open (void)
   g_signal_connect (display->gesture_tracker, "state-changed",
                     G_CALLBACK (gesture_tracker_state_changed), display);
 
-  /* We know that if mutter is running as a Wayland compositor,
+  /* We know that if vater is running as a Wayland compositor,
    * we start out with no windows.
    */
   if (!meta_is_wayland_compositor ())
@@ -1353,7 +1353,7 @@ meta_display_queue_autoraise_callback (MetaDisplay *display,
                         meta_prefs_get_auto_raise_delay (),
                         window_raise_with_delay_callback,
                         window, NULL);
-  g_source_set_name_by_id (display->autoraise_timeout_id, "[mutter] window_raise_with_delay_callback");
+  g_source_set_name_by_id (display->autoraise_timeout_id, "[vater] window_raise_with_delay_callback");
   display->autoraise_window = window;
 }
 
@@ -2008,9 +2008,9 @@ meta_display_end_grab_op (MetaDisplay *display,
  * Gets the current grab operation, if any.
  *
  * Return value: the current grab operation, or %META_GRAB_OP_NONE if
- * Mutter doesn't currently have a grab. %META_GRAB_OP_COMPOSITOR will
+ * Vater doesn't currently have a grab. %META_GRAB_OP_COMPOSITOR will
  * be returned if a compositor-plugin modal operation is in effect
- * (See mutter_begin_modal_for_plugin())
+ * (See vater_begin_modal_for_plugin())
  */
 MetaGrabOp
 meta_display_get_grab_op (MetaDisplay *display)
@@ -2070,7 +2070,7 @@ static gboolean is_syncing = FALSE;
  *
  * FIXME: This is *only* called by meta_display_open(), but by that time
  * we have already turned syncing on or off on startup, and we don't
- * have any way to do so while Mutter is running, so it's rather
+ * have any way to do so while Vater is running, so it's rather
  * pointless.
  *
  * Returns: %TRUE if we must wait for events whenever we send X requests;
@@ -2201,7 +2201,7 @@ meta_display_ping_window (MetaWindow *window,
     g_timeout_add (check_alive_timeout,
                    meta_display_ping_timeout,
                    ping_data);
-  g_source_set_name_by_id (ping_data->ping_timeout_id, "[mutter] meta_display_ping_timeout");
+  g_source_set_name_by_id (ping_data->ping_timeout_id, "[vater] meta_display_ping_timeout");
 
   display->pending_pings = g_slist_prepend (display->pending_pings, ping_data);
 
@@ -3227,7 +3227,7 @@ meta_display_update_tile_preview (MetaDisplay *display,
                        meta_display_update_tile_preview_timeout,
                        display);
       g_source_set_name_by_id (display->tile_preview_timeout_id,
-                               "[mutter] meta_display_update_tile_preview_timeout");
+                               "[vater] meta_display_update_tile_preview_timeout");
     }
   else
     {

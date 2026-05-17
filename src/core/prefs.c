@@ -23,7 +23,7 @@
 /**
  * SECTION:prefs
  * @title: Preferences
- * @short_description: Mutter preferences
+ * @short_description: Vater preferences
  */
 
 #include "config.h"
@@ -65,7 +65,7 @@
 /* These are the different schemas we are keeping
  * a GSettings instance for */
 #define SCHEMA_GENERAL         "io.github.scarecrow_de.desktop.wm.preferences"
-#define SCHEMA_MUTTER          "io.github.scarecrow_de.mutter"
+#define SCHEMA_VATER          "io.github.scarecrow_de.vater"
 #define SCHEMA_INTERFACE       "io.github.scarecrow_de.desktop.interface"
 #define SCHEMA_INPUT_SOURCES   "io.github.scarecrow_de.desktop.input-sources"
 #define SCHEMA_XSETTINGS       "io.github.scarecrow_de.settings-daemon.plugins.xsettings"
@@ -284,14 +284,14 @@ static MetaBoolPreference preferences_bool[] =
   {
     {
       { "attach-modal-dialogs",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_ATTACH_MODAL_DIALOGS,
       },
       &attach_modal_dialogs,
     },
     {
       { "center-new-windows",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_CENTER_NEW_WINDOWS,
       },
       &center_new_windows,
@@ -312,7 +312,7 @@ static MetaBoolPreference preferences_bool[] =
     },
     {
       { "dynamic-workspaces",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_DYNAMIC_WORKSPACES,
       },
       &dynamic_workspaces,
@@ -333,7 +333,7 @@ static MetaBoolPreference preferences_bool[] =
     },
     {
       { "focus-change-on-pointer-rest",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_FOCUS_CHANGE_ON_POINTER_REST,
       },
       &focus_change_on_pointer_rest
@@ -375,21 +375,21 @@ static MetaBoolPreference preferences_bool[] =
     },
     {
       { "edge-tiling",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_EDGE_TILING,
       },
       &edge_tiling,
     },
     {
       { "workspaces-only-on-primary",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_WORKSPACES_ONLY_ON_PRIMARY,
       },
       &workspaces_only_on_primary,
     },
     {
       { "auto-maximize",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_AUTO_MAXIMIZE,
       },
       &auto_maximize,
@@ -440,7 +440,7 @@ static MetaStringPreference preferences_string[] =
     },
     {
       { "overlay-key",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_KEYBINDINGS,
       },
       overlay_key_handler,
@@ -448,7 +448,7 @@ static MetaStringPreference preferences_string[] =
     },
     {
       { "locate-pointer-key",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_KEYBINDINGS,
       },
       locate_pointer_key_handler,
@@ -496,7 +496,7 @@ static MetaIntPreference preferences_int[] =
     },
     {
       { "draggable-border-width",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_DRAGGABLE_BORDER_WIDTH,
       },
       &draggable_border_width
@@ -522,7 +522,7 @@ static MetaUintPreference preferences_uint[] =
   {
     {
       { "check-alive-timeout",
-        SCHEMA_MUTTER,
+        SCHEMA_VATER,
         META_PREF_CHECK_ALIVE_TIMEOUT,
       },
       &check_alive_timeout,
@@ -987,7 +987,7 @@ queue_changed (MetaPreference pref)
     {
       changed_idle = g_idle_add_full (META_PRIORITY_PREFS_NOTIFY,
                                       changed_idle_handler, NULL, NULL);
-      g_source_set_name_by_id (changed_idle, "[mutter] changed_idle_handler");
+      g_source_set_name_by_id (changed_idle, "[vater] changed_idle_handler");
     }
 }
 
@@ -1008,9 +1008,9 @@ meta_prefs_init (void)
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_GENERAL), settings);
 
-  settings = g_settings_new (SCHEMA_MUTTER);
+  settings = g_settings_new (SCHEMA_VATER);
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
-  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_MUTTER), settings);
+  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_VATER), settings);
 
   settings = g_settings_new (SCHEMA_MOUSE);
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);

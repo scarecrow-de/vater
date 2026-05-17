@@ -849,7 +849,7 @@ meta_monitor_manager_xrandr_init_monitors (MetaMonitorManagerXrandr *manager_xra
   if (manager_xrandr->has_randr15 == FALSE)
     return;
 
-  /* delete any tiled monitors setup, as mutter will want to recreate
+  /* delete any tiled monitors setup, as vater will want to recreate
      things in its image */
   m = XRRGetMonitors (manager_xrandr->xdisplay,
                       DefaultRootWindow (manager_xrandr->xdisplay),

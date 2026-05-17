@@ -21,7 +21,7 @@ log_func (const gchar    *log_domain,
           gpointer        user_data)
 {
   if ((log_level & G_LOG_LEVEL_WARNING) &&
-      g_strcmp0 (log_domain, "mutter") == 0 &&
+      g_strcmp0 (log_domain, "vater") == 0 &&
       g_str_has_prefix (message, DBUS_NAME_WARNING))
     return FALSE;
 
@@ -33,7 +33,7 @@ test_get_plugin_name (void)
 {
   const char *name;
 
-  name = g_getenv ("MUTTER_TEST_PLUGIN_PATH");
+  name = g_getenv ("VATER_TEST_PLUGIN_PATH");
   if (name)
     return name;
   else

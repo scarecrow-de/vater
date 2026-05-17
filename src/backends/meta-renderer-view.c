@@ -34,7 +34,7 @@
 
 #include "backends/meta-crtc.h"
 #include "backends/meta-renderer.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "compositor/region-utils.h"
 
 enum

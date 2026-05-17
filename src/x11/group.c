@@ -21,7 +21,7 @@
 /**
  * SECTION:group
  * @title: MetaGroup
- * @short_description: Mutter window groups
+ * @short_description: Vater window groups
  *
  */
 

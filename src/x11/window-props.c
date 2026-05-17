@@ -714,14 +714,14 @@ reload_opaque_region (MetaWindow    *window,
 }
 
 static void
-reload_mutter_hints (MetaWindow    *window,
+reload_vater_hints (MetaWindow    *window,
                      MetaPropValue *value,
                      gboolean       initial)
 {
   if (value->type != META_PROP_VALUE_INVALID)
     {
       char     *new_hints = value->v.str;
-      char     *old_hints = window->mutter_hints;
+      char     *old_hints = window->vater_hints;
       gboolean  changed   = FALSE;
 
       if (new_hints)
@@ -740,19 +740,19 @@ reload_mutter_hints (MetaWindow    *window,
           g_free (old_hints);
 
           if (new_hints)
-            window->mutter_hints = g_strdup (new_hints);
+            window->vater_hints = g_strdup (new_hints);
           else
-            window->mutter_hints = NULL;
+            window->vater_hints = NULL;
 
-          g_object_notify (G_OBJECT (window), "mutter-hints");
+          g_object_notify (G_OBJECT (window), "vater-hints");
         }
     }
-  else if (window->mutter_hints)
+  else if (window->vater_hints)
     {
-      g_free (window->mutter_hints);
-      window->mutter_hints = NULL;
+      g_free (window->vater_hints);
+      window->vater_hints = NULL;
 
-      g_object_notify (G_OBJECT (window), "mutter-hints");
+      g_object_notify (G_OBJECT (window), "vater-hints");
     }
 }
 
@@ -1926,7 +1926,7 @@ meta_x11_display_init_window_prop_hooks (MetaX11Display *x11_display)
     { x11_display->atom__NET_WM_NAME,      META_PROP_VALUE_UTF8,     reload_net_wm_name,       LOAD_INIT | INCLUDE_OR },
     { XA_WM_CLASS,                         META_PROP_VALUE_CLASS_HINT, reload_wm_class,        LOAD_INIT | INCLUDE_OR },
     { XA_WM_NAME,                          META_PROP_VALUE_TEXT_PROPERTY, reload_wm_name,      LOAD_INIT | INCLUDE_OR },
-    { x11_display->atom__MUTTER_HINTS,     META_PROP_VALUE_TEXT_PROPERTY, reload_mutter_hints, LOAD_INIT | INCLUDE_OR },
+    { x11_display->atom__VATER_HINTS,     META_PROP_VALUE_TEXT_PROPERTY, reload_vater_hints, LOAD_INIT | INCLUDE_OR },
     { x11_display->atom__NET_WM_OPAQUE_REGION, META_PROP_VALUE_CARDINAL_LIST, reload_opaque_region, LOAD_INIT | INCLUDE_OR },
     { x11_display->atom__NET_WM_DESKTOP,   META_PROP_VALUE_CARDINAL, reload_net_wm_desktop,    LOAD_INIT | INIT_ONLY },
     { x11_display->atom__NET_STARTUP_ID,   META_PROP_VALUE_UTF8,     reload_net_startup_id,    LOAD_INIT },

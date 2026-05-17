@@ -54,7 +54,7 @@ struct _MetaSettings
   MetaBackend *backend;
 
   GSettings *interface_settings;
-  GSettings *mutter_settings;
+  GSettings *vater_settings;
   GSettings *wayland_settings;
 
   int ui_scaling_factor;
@@ -300,14 +300,14 @@ experimental_features_handler (GVariant *features_variant,
 static gboolean
 update_experimental_features (MetaSettings *settings)
 {
-  return GPOINTER_TO_INT (g_settings_get_mapped (settings->mutter_settings,
+  return GPOINTER_TO_INT (g_settings_get_mapped (settings->vater_settings,
                                                  "experimental-features",
                                                  experimental_features_handler,
                                                  settings));
 }
 
 static void
-mutter_settings_changed (GSettings    *mutter_settings,
+vater_settings_changed (GSettings    *vater_settings,
                          gchar        *key,
                          MetaSettings *settings)
 {
@@ -457,7 +457,7 @@ meta_settings_dispose (GObject *object)
 {
   MetaSettings *settings = META_SETTINGS (object);
 
-  g_clear_object (&settings->mutter_settings);
+  g_clear_object (&settings->vater_settings);
   g_clear_object (&settings->interface_settings);
   g_clear_object (&settings->wayland_settings);
   g_clear_pointer (&settings->xwayland_grab_allow_list_patterns,
@@ -475,11 +475,11 @@ meta_settings_init (MetaSettings *settings)
   g_signal_connect (settings->interface_settings, "changed",
                     G_CALLBACK (interface_settings_changed),
                     settings);
-  settings->mutter_settings = g_settings_new ("io.github.scarecrow_de.mutter");
-  g_signal_connect (settings->mutter_settings, "changed",
-                    G_CALLBACK (mutter_settings_changed),
+  settings->vater_settings = g_settings_new ("io.github.scarecrow_de.vater");
+  g_signal_connect (settings->vater_settings, "changed",
+                    G_CALLBACK (vater_settings_changed),
                     settings);
-  settings->wayland_settings = g_settings_new ("io.github.scarecrow_de.mutter.wayland");
+  settings->wayland_settings = g_settings_new ("io.github.scarecrow_de.vater.wayland");
   g_signal_connect (settings->wayland_settings, "changed",
                     G_CALLBACK (wayland_settings_changed),
                     settings);

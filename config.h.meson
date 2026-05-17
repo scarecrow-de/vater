@@ -8,16 +8,16 @@
 #mesondefine PACKAGE_VERSION
 
 /* Search path for plugins */
-#mesondefine MUTTER_PLUGIN_DIR
+#mesondefine VATER_PLUGIN_DIR
 
 /* */
-#mesondefine MUTTER_LOCALEDIR
+#mesondefine VATER_LOCALEDIR
 
 /* */
-#mesondefine MUTTER_LIBEXECDIR
+#mesondefine VATER_LIBEXECDIR
 
 /* */
-#mesondefine MUTTER_PKGDATADIR
+#mesondefine VATER_PKGDATADIR
 
 /* Defined if EGL support is enabled */
 #mesondefine HAVE_EGL

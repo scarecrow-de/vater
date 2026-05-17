@@ -1,18 +1,18 @@
-mutter_includesubdir = join_paths(pkgname, 'meta')
-mutter_includedir = join_paths(includedir, mutter_includesubdir)
+vater_includesubdir = join_paths(pkgname, 'meta')
+vater_includedir = join_paths(includedir, vater_includesubdir)
 
-mutter_includes = [
+vater_includes = [
   include_directories('.'),
   top_includepath,
   clutter_includepath,
   cogl_includepath,
 ]
 
-mutter_lib_deps = [
+vater_lib_deps = [
   m_dep,
 ]
 
-mutter_pkg_deps = [
+vater_pkg_deps = [
   cairo_dep,
   gio_unix_dep,
   glib_dep,
@@ -21,7 +21,7 @@ mutter_pkg_deps = [
   pango_dep,
 ]
 
-mutter_pkg_private_deps = [
+vater_pkg_private_deps = [
   gmodule_no_export_dep,
   gnome_desktop_dep,
   gnome_settings_daemon_dep,
@@ -31,62 +31,62 @@ mutter_pkg_private_deps = [
 ]
 
 if have_gl
-  mutter_pkg_deps += [
+  vater_pkg_deps += [
     gl_dep,
   ]
 endif
 
 if have_gles2
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     gles2_dep,
   ]
 endif
 
 if have_egl
-  mutter_pkg_deps += [
+  vater_pkg_deps += [
     egl_dep,
   ]
 endif
 
 if have_libgudev
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     gudev_dep,
     libudev_dep,
   ]
 endif
 
 if have_startup_notification
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     libstartup_notification_dep,
   ]
 endif
 
 if have_libwacom
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     libwacom_dep,
   ]
 endif
 
 if have_remote_desktop
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     libpipewire_dep,
   ]
 endif
 
 if have_introspection
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     gobject_introspection_dep,
   ]
 endif
 
 if have_x11
-  mutter_pkg_deps += [
+  vater_pkg_deps += [
     xfixes_dep,
     xi_dep,
     x11_dep,
   ]
 
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     xrandr_dep,
     xinerama_dep,
     xext_dep,
@@ -106,20 +106,20 @@ if have_x11
   ]
 
   if have_sm
-    mutter_pkg_private_deps += [
+    vater_pkg_private_deps += [
       sm_dep,
     ]
   endif
 endif
 
 if have_wayland
-  mutter_pkg_deps += [
+  vater_pkg_deps += [
     wayland_server_dep,
   ]
 endif
 
 if have_native_backend
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     libdrm_dep,
     libinput_dep,
     gudev_dep,
@@ -131,40 +131,40 @@ if have_native_backend
 endif
 
 if have_wayland_eglstream
-  mutter_lib_deps += [
+  vater_lib_deps += [
     dl_dep,
   ]
-  mutter_pkg_private_deps += [
+  vater_pkg_private_deps += [
     wayland_eglstream_protocols_dep,
   ]
 endif
 
-mutter_deps = [
-  mutter_pkg_deps,
-  mutter_pkg_private_deps,
-  mutter_lib_deps,
+vater_deps = [
+  vater_pkg_deps,
+  vater_pkg_private_deps,
+  vater_lib_deps,
 ]
 
-mutter_c_args = [
+vater_c_args = [
   '-DCLUTTER_ENABLE_COMPOSITOR_API',
   '-DCLUTTER_ENABLE_EXPERIMENTAL_API',
   '-DCOGL_ENABLE_EXPERIMENTAL_API',
   '-DCOGL_ENABLE_EXPERIMENTAL_2_0_API',
-  '-DCOGL_ENABLE_MUTTER_API',
+  '-DCOGL_ENABLE_VATER_API',
   '-DCLUTTER_DISABLE_DEPRECATION_WARNINGS',
   '-DCOGL_DISABLE_DEPRECATION_WARNINGS',
-  '-DG_LOG_DOMAIN="mutter"',
+  '-DG_LOG_DOMAIN="vater"',
   '-DSN_API_NOT_YET_FROZEN=1',
   '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()),
 ]
 
 if get_option('verbose')
-  mutter_c_args += [
+  vater_c_args += [
     '-DWITH_VERBOSE_MODE'
   ]
 endif
 
-mutter_sources = [
+vater_sources = [
   'backends/edid.h',
   'backends/edid-parse.c',
   'backends/gsm-inhibitor-flag.h',
@@ -428,7 +428,7 @@ mutter_sources = [
   'x11/meta-x11-stack-private.h',
   'x11/meta-x11-window-control.c',
   'x11/meta-x11-window-control.h',
-  'x11/mutter-Xatomtype.h',
+  'x11/vater-Xatomtype.h',
   'x11/session.c',
   'x11/session.h',
   'x11/window-props.c',
@@ -441,7 +441,7 @@ mutter_sources = [
 ]
 
 if have_egl
-  mutter_sources += [
+  vater_sources += [
     'backends/meta-egl.c',
     'backends/meta-egl-ext.h',
     'backends/meta-egl.h',
@@ -449,7 +449,7 @@ if have_egl
 endif
 
 if have_gles2
-  mutter_sources += [
+  vater_sources += [
     'backends/meta-gles3.c',
     'backends/meta-gles3.h',
     'backends/meta-gles3-table.h',
@@ -457,7 +457,7 @@ if have_gles2
 endif
 
 if have_remote_desktop
-  mutter_sources += [
+  vater_sources += [
     'backends/meta-dbus-session-watcher.c',
     'backends/meta-dbus-session-watcher.h',
     'backends/meta-remote-desktop.c',
@@ -488,7 +488,7 @@ if have_remote_desktop
 endif
 
 if have_wayland
-  mutter_sources += [
+  vater_sources += [
     'compositor/meta-surface-actor-wayland.c',
     'compositor/meta-surface-actor-wayland.h',
     'compositor/meta-window-actor-wayland.c',
@@ -622,7 +622,7 @@ if have_wayland
 endif
 
 if have_native_backend
-  mutter_sources += [
+  vater_sources += [
     'backends/native/dbus-utils.c',
     'backends/native/dbus-utils.h',
     'backends/native/meta-backend-native.c',
@@ -716,16 +716,16 @@ if have_native_backend
 endif
 
 if have_wayland_eglstream
-  mutter_sources += [
+  vater_sources += [
     'wayland/meta-wayland-egl-stream.c',
     'wayland/meta-wayland-egl-stream.h',
   ]
 endif
 
-mutter_built_sources = []
+vater_built_sources = []
 
 if have_remote_desktop
-  mutter_private_enum_types = gnome.mkenums('meta-private-enum-types',
+  vater_private_enum_types = gnome.mkenums('meta-private-enum-types',
     sources: [
       'backends/meta-screen-cast.h',
     ],
@@ -733,34 +733,34 @@ if have_remote_desktop
     h_template: 'meta-private-enum-types.h.in',
   )
 
-  mutter_built_sources += mutter_private_enum_types
+  vater_built_sources += vater_private_enum_types
 endif
 
 dbus_display_config_built_sources = gnome.gdbus_codegen('meta-dbus-display-config',
-    'io.github.scarecrow_de.Mutter.DisplayConfig.xml',
-    interface_prefix: 'io.github.scarecrow_de.Mutter.',
+    'io.github.scarecrow_de.Vater.DisplayConfig.xml',
+    interface_prefix: 'io.github.scarecrow_de.Vater.',
     namespace: 'MetaDBus',
   )
-mutter_built_sources += dbus_display_config_built_sources
+vater_built_sources += dbus_display_config_built_sources
 
 dbus_idle_monitor_built_sources = gnome.gdbus_codegen('meta-dbus-idle-monitor',
-    'io.github.scarecrow_de.Mutter.IdleMonitor.xml',
-    interface_prefix: 'io.github.scarecrow_de.Mutter.',
+    'io.github.scarecrow_de.Vater.IdleMonitor.xml',
+    interface_prefix: 'io.github.scarecrow_de.Vater.',
     namespace: 'MetaDBus',
     object_manager: true,
   )
-mutter_built_sources += dbus_idle_monitor_built_sources
+vater_built_sources += dbus_idle_monitor_built_sources
 
-mutter_marshal = gnome.genmarshal('meta-marshal',
+vater_marshal = gnome.genmarshal('meta-marshal',
     sources: ['meta-marshal.list'],
     prefix: 'meta_marshal',
     internal: true,
     valist_marshallers: true,
   )
-mutter_built_sources += mutter_marshal
+vater_built_sources += vater_marshal
 
 if have_profiler
-  mutter_sources += [
+  vater_sources += [
     'backends/meta-profiler.c',
     'backends/meta-profiler.h',
   ]
@@ -777,7 +777,7 @@ if have_profiler
       interface_prefix: 'io.github.scarecrow_de.',
       namespace: 'MetaDBus',
     )
-  mutter_built_sources += dbus_sysprof3_profiler_built_sources
+  vater_built_sources += dbus_sysprof3_profiler_built_sources
 endif
 
 if have_native_backend
@@ -788,7 +788,7 @@ if have_native_backend
     output: 'meta-default-modes.h',
     command: [gen_default_modes, '@OUTPUT@']
   )
-  mutter_built_sources += default_modes_h
+  vater_built_sources += default_modes_h
 
   gdbus_codegen = find_program('gdbus-codegen')
   dbus_login1_built_sources = custom_target('meta-dbus-login1',
@@ -807,23 +807,23 @@ if have_native_backend
       '@INPUT@',
     ]
   )
-  mutter_built_sources += dbus_login1_built_sources
+  vater_built_sources += dbus_login1_built_sources
 endif
 
 if have_remote_desktop
   dbus_remote_desktop_built_sources = gnome.gdbus_codegen('meta-dbus-remote-desktop',
-      'io.github.scarecrow_de.Mutter.RemoteDesktop.xml',
-      interface_prefix: 'io.github.scarecrow_de.Mutter.',
+      'io.github.scarecrow_de.Vater.RemoteDesktop.xml',
+      interface_prefix: 'io.github.scarecrow_de.Vater.',
       namespace: 'MetaDBus',
     )
-  mutter_built_sources += dbus_remote_desktop_built_sources
+  vater_built_sources += dbus_remote_desktop_built_sources
 
   dbus_screen_cast_built_sources = gnome.gdbus_codegen('meta-dbus-screen-cast',
-      'io.github.scarecrow_de.Mutter.ScreenCast.xml',
-      interface_prefix: 'io.github.scarecrow_de.Mutter.',
+      'io.github.scarecrow_de.Vater.ScreenCast.xml',
+      interface_prefix: 'io.github.scarecrow_de.Vater.',
       namespace: 'MetaDBus',
     )
-  mutter_built_sources += dbus_screen_cast_built_sources
+  vater_built_sources += dbus_screen_cast_built_sources
 endif
 
 wayland_protocol_server_headers = []
@@ -926,61 +926,61 @@ if have_wayland
   endforeach
 endif
 
-mutter_built_sources += wayland_protocol_server_headers
-mutter_built_sources += wayland_protocol_sources
+vater_built_sources += wayland_protocol_server_headers
+vater_built_sources += wayland_protocol_sources
 
 subdir('meta')
 
-mutter_built_sources += mutter_enum_types
-mutter_built_sources += mutter_version
+vater_built_sources += vater_enum_types
+vater_built_sources += vater_version
 
-libmutter = shared_library(libmutter_name,
-  mutter_sources,
-  mutter_built_sources,
+libvater = shared_library(libvater_name,
+  vater_sources,
+  vater_built_sources,
   version: '0.0.0',
   soversion: 0,
   gnu_symbol_visibility: 'hidden',
-  include_directories: mutter_includes,
-  c_args: mutter_c_args,
+  include_directories: vater_includes,
+  c_args: vater_c_args,
   dependencies: [
-    libmutter_cogl_dep,
-    libmutter_clutter_dep,
-    mutter_deps,
+    libvater_cogl_dep,
+    libvater_clutter_dep,
+    vater_deps,
   ],
   install_rpath: pkglibdir,
   install_dir: libdir,
   install: true,
 )
 
-libmutter_dep = declare_dependency(
-  link_with: libmutter,
-  include_directories: mutter_includes,
+libvater_dep = declare_dependency(
+  link_with: libvater,
+  include_directories: vater_includes,
   dependencies: [
-    libmutter_cogl_dep,
-    libmutter_clutter_dep,
-    mutter_deps,
+    libvater_cogl_dep,
+    libvater_clutter_dep,
+    vater_deps,
   ],
 )
 
-executable('mutter',
+executable('vater',
   sources: [
-    files('core/mutter.c'),
+    files('core/vater.c'),
   ],
-  include_directories: mutter_includes,
-  c_args: mutter_c_args,
-  dependencies: [libmutter_dep],
+  include_directories: vater_includes,
+  c_args: vater_c_args,
+  dependencies: [libvater_dep],
   install_dir: bindir,
   install: true,
 )
 
-executable('mutter-restart-helper',
+executable('vater-restart-helper',
   sources: [
     files('core/restart-helper.c'),
   ],
   include_directories: [
     top_includepath,
   ],
-  c_args: mutter_c_args,
+  c_args: vater_c_args,
   dependencies: [
     x11_dep,
     xcomposite_dep,
@@ -990,21 +990,21 @@ executable('mutter-restart-helper',
 )
 
 if have_introspection
-  mutter_introspected_sources = []
-  foreach source : mutter_sources
+  vater_introspected_sources = []
+  foreach source : vater_sources
     if source.endswith('.c')
-      mutter_introspected_sources += source
+      vater_introspected_sources += source
     endif
   endforeach
 
-  libmutter_gir = gnome.generate_gir(libmutter,
+  libvater_gir = gnome.generate_gir(libvater,
     sources: [
-      mutter_version,
-      mutter_enum_types[1],
-      mutter_introspected_sources,
-      mutter_public_header_files
+      vater_version,
+      vater_enum_types[1],
+      vater_introspected_sources,
+      vater_public_header_files
     ],
-    nsversion: libmutter_api_version,
+    nsversion: libvater_api_version,
     namespace: 'Meta',
     symbol_prefix: 'meta',
     includes: [
@@ -1014,32 +1014,32 @@ if have_introspection
       'Gtk-3.0',
       'xlib-2.0',
       'xfixes-4.0',
-      libmutter_cogl_gir[0],
-      libmutter_cogl_pango_gir[0],
-      libmutter_clutter_gir[0],
+      libvater_cogl_gir[0],
+      libvater_cogl_pango_gir[0],
+      libvater_clutter_gir[0],
     ],
     dependencies: [
-      mutter_deps,
-      libmutter_dep,
+      vater_deps,
+      libvater_dep,
     ],
-    extra_args: mutter_c_args + introspection_args,
+    extra_args: vater_c_args + introspection_args,
     install_dir_gir: pkglibdir,
     install_dir_typelib: pkglibdir,
     install: true
   )
 endif
 
-pkg.generate(libmutter,
+pkg.generate(libvater,
   name: 'Meta',
-  filebase: 'libmutter-' + libmutter_api_version,
-  description: 'Mutter compositor and window manager library',
+  filebase: 'libvater-' + libvater_api_version,
+  description: 'Vater compositor and window manager library',
   subdirs: pkgname,
-  requires: [mutter_pkg_deps, libmutter_clutter_name],
+  requires: [vater_pkg_deps, libvater_clutter_name],
   version: meson.project_version(),
   variables: [
-    'apiversion=' + libmutter_api_version,
-    'girdir=${libdir}/mutter-' + libmutter_api_version,
-    'typelibdir=${libdir}/mutter-' + libmutter_api_version,
+    'apiversion=' + libvater_api_version,
+    'girdir=${libdir}/vater-' + libvater_api_version,
+    'typelibdir=${libdir}/vater-' + libvater_api_version,
   ],
   install_dir: pcdir,
 )

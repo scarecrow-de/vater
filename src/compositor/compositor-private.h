@@ -5,7 +5,7 @@
 
 #include <X11/extensions/Xfixes.h>
 
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-vater.h"
 #include "clutter/clutter.h"
 #include "compositor/meta-plugin-manager.h"
 #include "compositor/meta-window-actor-private.h"

@@ -80,7 +80,7 @@
 #endif
 
 /* It would be good to move these casts up into 1.x only api if we can
- * update Clutter, Mutter and GnomeShell to avoid redundant casts when
+ * update Clutter, Vater and GnomeShell to avoid redundant casts when
  * they enable the experimental api... */
 #include <cogl/deprecated/cogl-type-casts.h>
 
@@ -88,8 +88,8 @@
 #include <cogl/deprecated/cogl-shader.h>
 #include <cogl/deprecated/cogl-material-compat.h>
 
-#ifdef COGL_ENABLE_MUTTER_API
-#include <cogl/cogl-mutter.h>
+#ifdef COGL_ENABLE_VATER_API
+#include <cogl/cogl-vater.h>
 #endif
 
 #include <cogl/cogl-swap-chain.h>

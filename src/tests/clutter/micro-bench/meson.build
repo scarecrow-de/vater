@@ -25,8 +25,8 @@ foreach test : clutter_tests_micro_bench_tests
     c_args: clutter_tests_micro_bench_c_args,
     dependencies: [
       clutter_deps,
-      libmutter_clutter_dep,
-      libmutter_dep,
+      libvater_clutter_dep,
+      libvater_dep,
     ],
     install: false,
   )

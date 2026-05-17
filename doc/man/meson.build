@@ -1,1 +1,1 @@
-install_man('mutter.1')
+install_man('vater.1')

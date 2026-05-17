@@ -30,8 +30,8 @@
 #include "backends/meta-remote-desktop-session.h"
 #include "backends/meta-screen-cast-session.h"
 
-#define META_SCREEN_CAST_DBUS_SERVICE "io.github.scarecrow_de.Mutter.ScreenCast"
-#define META_SCREEN_CAST_DBUS_PATH "/io/github/scarecrow_de/Mutter/ScreenCast"
+#define META_SCREEN_CAST_DBUS_SERVICE "io.github.scarecrow_de.Vater.ScreenCast"
+#define META_SCREEN_CAST_DBUS_PATH "/io/github/scarecrow_de/Vater/ScreenCast"
 #define META_SCREEN_CAST_API_VERSION 4
 
 struct _MetaScreenCast

@@ -21,7 +21,7 @@
 /**
  * SECTION:errors
  * @title: Errors
- * @short_description: Mutter X error handling
+ * @short_description: Vater X error handling
  */
 
 #include "config.h"

@@ -67,4 +67,4 @@ by Wayland surfaces (MetaWindowActorWayland).
 Env Vars
 ========
 
-MUTTER_DISABLE_MIPMAPS - set to disable use of mipmaped windows.
+VATER_DISABLE_MIPMAPS - set to disable use of mipmaped windows.

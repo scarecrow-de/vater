@@ -1,6 +1,6 @@
-This directory implements a framework for automated tests of Mutter. The basic
-idea is that mutter-test-runner acts as the window manager and compositor, and
-forks off instances of mutter-test-client to act as clients.
+This directory implements a framework for automated tests of Vater. The basic
+idea is that vater-test-runner acts as the window manager and compositor, and
+forks off instances of vater-test-client to act as clients.
 
 There's a simple scripting language for tests. A very small test would look like:
 
@@ -15,7 +15,7 @@ show 1/1
 create 1/2
 show 1/2
 
-# Wait for the commands we've executed in the clients to reach Mutter
+# Wait for the commands we've executed in the clients to reach Vater
 wait
 
 # Check that the windows are in the order we expect
@@ -61,7 +61,7 @@ activate <client-id>/<window-id>
  for Wayland, where this capability is not supported in the protocol.
 
 local_activate <client-id>-<window-id>
-  The same as 'activate', but the operation is done directly inside Mutter
+  The same as 'activate', but the operation is done directly inside Vater
   and works for both backends
 
 raise <client-id>/<window-id>
@@ -79,15 +79,15 @@ destroy <client-id>/<window-id>
   Destroy the given window
 
 wait
-  Wait until all requests sent by Mutter to clients have been received by Mutter,
-  and then wait until all requests by Mutter have been processed by the X server.
+  Wait until all requests sent by Vater to clients have been received by Vater,
+  and then wait until all requests by Vater have been processed by the X server.
 
 assert_stacking <client-id>/<window-id> <client-id>/<window-id> ...
-  Assert that the list of client windows known to Mutter is as given and in
+  Assert that the list of client windows known to Vater is as given and in
   the given order, bottom to top. The character '|' can be present in the
   list of windows to indicate the guard window that separates hidden and
   visible windows. If '|' isn't present, the guard window is asserted to
   be below all client windows.
 
-  This function also queries the X server stack and verifies that Mutter's
+  This function also queries the X server stack and verifies that Vater's
   expectation of the X server stack matches reality.
