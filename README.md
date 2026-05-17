@@ -1,6 +1,6 @@
-# Mutter
+# Vater
 
-Mutter is a Wayland display server and X11 window manager and compositor library.
+Vater is a Wayland display server and X11 window manager and compositor library.
 
 When used as a Wayland display server, it runs on top of KMS and libinput. It
 implements the compositor side of the Wayland core protocol as well as various
@@ -17,7 +17,7 @@ Internally it uses a fork of Cogl, a hardware acceleration abstraction library
 used to simplify usage of OpenGL pipelines, as well as a fork af Clutter, a
 scene graph and user interface toolkit.
 
-Mutter is used by, for example, GNOME Shell, the GNOME core user interface, and
+Vater is used by, for example, Scarecrow Shell, the GNOME core user interface, and
 by  Gala, elementary OS's window manager. It can also be run standalone, using
 the  command "mutter", but just running plain mutter is only intended for
 debugging purposes.
@@ -38,7 +38,7 @@ to either an issue or a merge request in each commit.
 
 ## License
 
-Mutter is distributed under the terms of the GNU General Public License,
+Vater is distributed under the terms of the GNU General Public License,
 version 2 or later. See the [COPYING][license] file for detalis.
 
 [bug-tracker]: https://gitlab.gnome.org/GNOME/mutter/issues
