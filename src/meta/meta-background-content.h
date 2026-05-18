@@ -21,7 +21,7 @@
 #ifndef META_BACKGROUND_CONTENT_H
 #define META_BACKGROUND_CONTENT_H
 
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #include "clutter/clutter.h"
 #include "meta/meta-background.h"

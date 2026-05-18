@@ -27,7 +27,7 @@
 #include <meta/common.h>
 #include <meta/types.h>
 #include <pango/pango-font.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #include <gio/gio.h>
 
 /**
