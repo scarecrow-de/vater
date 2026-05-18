@@ -1009,7 +1009,7 @@ if have_introspection
     symbol_prefix: 'meta',
     includes: [
       'GObject-2.0',
-      'GDesktopEnums-3.0',
+      'ScDesktopEnums-3.0',
       'Gdk-3.0',
       'Gtk-3.0',
       'xlib-2.0',
