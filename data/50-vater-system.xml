@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<KeyListEntries schema="org.gnome.desktop.wm.keybindings"
+<KeyListEntries schema="io.github.scarecrow_de.desktop.wm.keybindings"
                 group="system"
                 name="System"
-                wm_name="Mutter"
-                package="mutter">
+                wm_name="Vater"
+                package="vater">
 
 	<KeyListEntry name="panel-run-dialog" description="Show the run command prompt"/>
 
